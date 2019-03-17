@@ -26,7 +26,7 @@ In this document used some defenitons:
 #8 - Flash Cards (Anki)                       #+8 - Typing Tutor (Klavaro)
 #9 - Video Recording (OBS)                    #+9 - Video Montage (Davinci Resolve)
 #0 - Game Engine (Unity 3D)                   #+0 - Mind Map (freemind)
-#- - CAD (FreeCAD)                            #+- - EDA (KeeCAD)
+#- - CAD (FreeCAD)                            #+- - EDA (KiCAD)
 #\+ - Vector Editor (Inkscape)                #+\+ - 2D Animation (OpenToonz) 
 #[ - System Monitor (KSysGuard)               #+[ - System Settings
 #] - Virtual Machines (Virtualbox)            #+] - Android Emulator (Anbox)
