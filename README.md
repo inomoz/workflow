@@ -32,6 +32,7 @@ PS - <PrintScreen> key
 #[ - System Monitor (KSysGuard)               #+[ - System Settings
 #] - Virtual Machines (Virtualbox)            #+] - Android Emulator (Anbox)
 #s - Games Library (Steam)                    #+s - Alternative Games Library (Lutris)
++PS - ScreenShoot Tool (spectacle)
 ```
 
 ## Base
@@ -41,7 +42,8 @@ PS - <PrintScreen> key
 #+f - Presentation mode for current windows group
 #+c - Clipboard history
 #^c - Clear Clipboard history
-PS - 
+PS - Take Screen Selection
+#PS - Take Window Screenshoot
 ```
 
 ## Window management
