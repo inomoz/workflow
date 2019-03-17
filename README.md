@@ -1,6 +1,12 @@
-# Vim Cheatsheet
+# Hotkeys Cheatsheet
 
 >Disclaimer: This cheatsheet is summarized from personal experience and other online tutorials. It should not be considered as an official advice.
+
+# OS
+
+# Browser
+
+# VIM based Editor
 
 ## Global
 ```bash
