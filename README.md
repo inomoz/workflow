@@ -72,9 +72,11 @@ In this document used some defenitons:
 
 ### Browser Audio Player
 
+```
 ^+d - Play/Pause                              #g OSD
 ^+s - Next track
 ^+a - Prev track
+```
 
 # VIM based Editor
 
