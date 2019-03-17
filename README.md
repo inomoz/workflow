@@ -35,7 +35,7 @@ In this document used some defenitons:
 
 ## Base
 ```
-!d - Command Runner
+#d - Command Runner
 #f - Presentation mode (quick swithc between windows)
 #+f - Presentation mode for current windows group
 #+c - Clipboard history
