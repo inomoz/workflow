@@ -1,8 +1,17 @@
-# Hotkeys Cheatsheet
+# Hotkeys and Keystrokes Cheatsheet
 
 >Disclaimer: This cheatsheet is summarized from personal experience and other online tutorials. It should not be considered as an official advice.
 
-# OS
+In this document used some defenitons:
++ - <Shift> modifier key
+^ - <Control> modifier key
+# - <WIN> modifier key
+! - <Alt> modifier key
+
+# OS [Linux based]
+
+## Jumps (run or raise) to windows
+
 
 # Browser
 
