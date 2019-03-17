@@ -83,12 +83,14 @@ PS - Take Screen Selection
 ```
 
 ## KeyNav (mouse control using keyboard)
+```
 ^; - activate KeyNav
 h,j,k,l - activate region
 +h, +j - move region left, right
 ; - move cur to center of region
 <space> - move mouse and left click
 <Esc> - cancel move
+```
 
 # VIM based Editor
 
