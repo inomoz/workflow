@@ -10,12 +10,71 @@ In this document used some defenitons:
 ! - <Alt> modifier key
 ```
 
-# OS [Linux based]
+# OS [Linux based - KDE]
 
 ## Jumps (run or raise) to windows
+>I use jumpapp and KDE custom shortcuts bindings for this functional. https://github.com/mkropat/jumpapp
+>if you use jumpapp, it can switch between `same windows` or between `other` and `latest` window!
+```
+#1 - Main web browser (Google Chrome)         #+1 - RSS reader (FeedReader)
+#2 - Lightweight editor (Emacs + Evil)        #+2 - Image editor (Krita)
+#3 - Terminal emulator (Alacritty)            #+3 - Documentation browser (Zeal)
+#4 - IDE (IntellJ)                            #+4 - Image/PDF preview (tabbed Okular)
+#5 - Email Client (Kmail)                     #+5 - Messaging (...)
+#6 - Audio Player (Clementine)                #+6 - DAW (Ardour)
+#7 - Media Player (MPV)                       #+6 - 3D Software (Blender)
+#8 - Flash Cards (Anki)                       #+8 - Typing Tutor (Klavaro)
+#9 - Video Recording (OBS)                    #+9 - Video Montage (Davinci Resolve)
+#0 - Game Engine (Unity 3D)                   #+0 - Mind Map (freemind)
+#- - CAD (FreeCAD)                            #+- - EDA (KeeCAD)
+#\+ - Vector Editor (Inkscape)                #+\+ - 2D Animation (OpenToonz) 
+#[ - System Monitor (KSysGuard)               #+[ - System Settings
+#] - Virtual Machines (Virtualbox)            #+] - Android Emulator (Anbox)
+#s - Games Library (Steam)                    #+s - Alternative Games Library (Lutris)
+```
 
+## Base
+```
+!d - Command Runner
+#f - Presentation mode (quick swithc between windows)
+#+f - Presentation mode for current windows group
+#+c - Clipboard history
+#^c - Clear Clipboard history
+```
 
-# Browser
+## Window management
+
+```
+!h          - Hide window
+!m          - Maximize window
+^+r         - Resize window
+^+q         - Close window
+^+backspace - Kill Window (need click to window)
+#Up, #Down, #Left, #Right - move window to top, bottom, left, right of screen
+!`          - walk through group
+!+`         - reverse walk through group
+#F11        - Full Screen
+```
+
+## Media Controls
+
+### System Audo Player
+
+```
+#g OSD
+#+g - Play/Pause                              #^g - Change Shuffle 
+#+j - Next track
+#+k - Prev track
+#+l - Vol. up (player only) ->
+#+h - Vol. down (player only) <-
+
+```
+
+### Browser Audio Player
+
+^+d - Play/Pause                              #g OSD
+^+s - Next track
+^+a - Prev track
 
 # VIM based Editor
 
