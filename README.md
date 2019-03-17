@@ -6,8 +6,9 @@ In this document used some defenitons:
 ```
 + - <Shift> modifier key
 ^ - <Control> modifier key
-# - <WIN> modifier key
 ! - <Alt> modifier key
+# - <WIN> key
+PS - <PrintScreen> key
 ```
 
 # OS [Linux based - KDE]
@@ -40,6 +41,7 @@ In this document used some defenitons:
 #+f - Presentation mode for current windows group
 #+c - Clipboard history
 #^c - Clear Clipboard history
+PS - 
 ```
 
 ## Window management
