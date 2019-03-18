@@ -77,9 +77,9 @@ PS - Take Screen Selection
 ### Browser Audio Player
 
 ```
-^+d - Play/Pause                              #g OSD
-^+s - Next track
-^+a - Prev track
+!+g - Play/Pause                              #g OSD
+!+k - Next track
+!+j - Prev track
 ```
 
 ## KeyNav (mouse control using keyboard)
