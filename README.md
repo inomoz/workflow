@@ -17,7 +17,7 @@ PS - <PrintScreen> key
 >I use jumpapp and KDE custom shortcuts bindings for this functional. https://github.com/mkropat/jumpapp
 >if you use jumpapp, it can switch between `same windows` or between `other` and `latest` window!
 ```
-#1 - Main web browser (Google Chrome)         #+1 - RSS reader (FeedReader)
+#1 - Main web browser (Google Chrome)         #+1 - RSS reader (Akregator)
 #2 - Lightweight editor (Emacs + Evil)        #+2 - Image editor (Krita)
 #3 - Terminal emulator (Alacritty)            #+3 - Documentation browser (Zeal)
 #4 - IDE (IntellJ)                            #+4 - Image/PDF preview (tabbed Okular)
