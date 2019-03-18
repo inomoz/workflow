@@ -92,6 +92,46 @@ h,j,k,l - activate region
 <Esc> - cancel move
 ```
 
+# IntellJ with IdeaVIM plugin
+
+## Base
+
+```
+^+<space> - Smart code completion Ctrl + Shift + Space
+!!        - Search everywhere
+!<enter>  - Show intention actions and quick-fixes Alt + Enter
+!<ins>    - Generate code
+^p        - Parameter info
+!w        - Extend selection
+^+w       - Shrink selection
+!e        - Recent files popup
+!F6       - Rename
+```
+  
+## General
+
+```
+![0-9] - Open corresponding tool window
+^s     - Save all
+***    - Synchronize
+^+F12  - Toggle maximizing editor
+!+i    - Inspect current file with current profile
+^`     - Quick switch current scheme
+***    - Open Settings dialog Ctrl + Alt + S
+***    - Open Project Structure dialog
+***    - Find Action
+```
+
+## Debugging
+## Search / Replace
+## Editing
+## Refactoring
+## Navigation
+## Compile and Run
+## Usage Search
+## VCS / Local History
+## Live Templates
+
 # VIM based Editor
 
 ## Global
