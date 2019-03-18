@@ -117,20 +117,142 @@ h,j,k,l - activate region
 ^+F12  - Toggle maximizing editor
 !+i    - Inspect current file with current profile
 ^`     - Quick switch current scheme
-***    - Open Settings dialog Ctrl + Alt + S
-***    - Open Project Structure dialog
-***    - Find Action
+^!S    - Open Settings dialog Ctrl + Alt + S
+^!+S   - Open Project Structure dialog
+^+A    - Find Action
 ```
 
 ## Debugging
+
+```
+F8 / F7   - Step over / into 
++F7 / +F8 - Smart step into/Step out 
+!F9       - Run to cursor
+!F8       - Evaluate expression
+F9 Resume program
+** Toggle breakpoint
+*** View breakpoints
+```
+
 ## Search / Replace
+```
+^+F - Find in path
+*** - Replace in path
+```
+
 ## Editing
+```
+Basic code completion Ctrl + Space
+Smart code completion Ctrl + Shift + Space
+Complete statement Ctrl + Shift + Enter
+Parameter info (within method call arguments) Ctrl + P
+Quick documentation lookup Ctrl + Q
+External Doc Shift + F1
+Brief Info Ctrl + mouse
+Show descriptions of error at caret Ctrl + F1
+Generate code... Alt + Insert
+Override methods Ctrl + O
+Implement methods Ctrl + I
+Surround with…  Ctrl + Alt + T
+Comment /uncomment with line comment Ctrl + /
+Comment /uncomment with block comment Ctrl + Shift + /
+Extend selection Ctrl + W
+Shrink selection Ctrl + Shift + W
+Context info Alt + Q
+Show intention actions and quick-fixes Alt + Enter
+Reformat code Ctrl + Alt + L
+Optimize imports Ctrl + Alt + O
+Auto-indent line(s) Ctrl + Alt + I
+Indent /unindent selected lines Tab / Shift + Tab
+Smart line join Ctrl + Shift + J
+Smart line split Ctrl + Enter
+Start new line Shift + Enter
+Toggle case for word at caret or selected block Ctrl + Shift + U
+Select till code block end / start Ctrl + Shift + ] / [
+Expand/collapse code block Ctrl + NumPad+ / -
+Expand all Ctrl + Shift + NumPad+
+Collapse all Ctrl + Shift + NumPadClose active editor tab Ctrl + F4
+```
+
 ## Refactoring
+```
+Copy F5
+Move F6
+Safe Delete Alt + Delete
+Rename Shift + F6
+Refactor this Ctrl + Alt + Shift + T
+Change Signature Ctrl + F6
+Inline Ctrl + Alt + N
+Extract Method Ctrl + Alt + M
+Extract Variable Ctrl + Alt + V
+Extract Field Ctrl + Alt + F
+Extract Constant Ctrl + Alt + C
+Extract Parameter Ctrl + Alt + P
+```
+
 ## Navigation
+```
+Go to class Ctrl + N
+Go to file Ctrl + Shift + N
+Go to symbol Ctrl + Alt + Shift + N
+Go to next /previous editor tab Alt + Right/Left
+Go back to previous tool window F12
+Go to editor (from tool window) Esc
+Hide active or last active window Shift + Esc
+Go to line Ctrl + G
+Recent files popup Ctrl + E
+Navigate back/ forward Ctrl + Alt + Left/Right
+Navigate to last edit location Ctrl + Shift + Backspace
+Select current file or symbol in any view Alt + F1
+Go to declaration Ctrl + B , Ctrl + Click
+Go to implementation(s) Ctrl + Alt + B
+Open quick definition lookup Ctrl + Shift + I
+Go to type declaration Ctrl + Shift + B
+Go to super-method/ super-class Ctrl + U
+Go to previous /next method Alt + Up/Down
+Move to code block end/ start Ctrl + ]/[
+File structure popup Ctrl + F12
+Type hierarchy Ctrl + H
+Method hierarchy Ctrl + Shift + H
+Call hierarchy Ctrl + Alt + H
+Next /previous highlighted error F2 / Shift + F2
+Edit source/View source F4 / Ctrl + Enter
+Show navigation bar Alt + Home
+Toggle bookmark F11
+Toggle bookmark with mnemonic Ctrl + F11
+Go to numbered bookmark Ctrl + #[0-9]
+Show bookmarks Shift + F11
+```
+
 ## Compile and Run
+```
+Make project Ctrl + F9
+Compile selected file, package or module Ctrl + Shift + F9
+Select configuration and run/debug Alt + Shift + F10/F9
+Run/Debug Shift + F10 / F9
+Run context configuration from editor Ctrl + Shift + F10
+```
+
 ## Usage Search
+```
+Find usages /Find usages in file Alt + F7 / Ctrl + F7
+Highlight usages in file Ctrl + Shift + F7
+Show usages Ctrl + Alt + F7
+```
+
 ## VCS / Local History
+```
+Commit project to VCS Ctrl + K
+Update project from VCS Ctrl + T
+Push commits Ctrl + Shift + K
+‘VCS’ quick popup Alt + BackQuote (`)
+```
+
 ## Live Templates
+```
+Surround with Live Template Ctrl + Alt + J
+Insert Live Template Ctrl + J
+```
 
 # VIM based Editor
 
