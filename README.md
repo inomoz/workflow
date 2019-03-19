@@ -20,7 +20,7 @@ PS - <PrintScreen> key
 #1 - Main web browser (Google Chrome)         #+1 - RSS reader (Akregator)
 #2 - Lightweight editor (Emacs + Evil)        #+2 - Image editor (Krita)
 #3 - Terminal emulator (Alacritty)            #+3 - Documentation browser (Zeal)
-#4 - IDE (IntellJ)                            #+4 - Image/PDF preview (tabbed Okular)
+#4 - IDE (IntellJ)                            #+4 - Image/PDF preview (Zathura)
 #5 - Email Client (Kmail)                     #+5 - Messaging (...)
 #6 - Audio Player (Clementine)                #+6 - DAW (Ardour)
 #7 - Media Player (MPV)                       #+6 - 3D Software (Blender)
@@ -32,7 +32,7 @@ PS - <PrintScreen> key
 #[ - System Monitor (KSysGuard)               #+[ - System Settings
 #] - Virtual Machines (Virtualbox)            #+] - Android Emulator (Anbox)
 #s - Games Library (Steam)                    #+s - Alternative Games Library (Lutris)
-+PS - ScreenShoot Tool (spectacle)
+#a - Image viewer (Feh)                       #+a - ScreenShoot Tool (Spectacle)
 ```
 
 ## Base
