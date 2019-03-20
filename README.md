@@ -11,6 +11,48 @@ In this document used some defenitons:
 PS - <PrintScreen> key
 ```
 
+# Base path
+GIT/GitHub - `https://git-scm.com/book/ru/v2/`
+Basic Terminal Usage - `The Unix Programming Environment`
+Data Structures & Algorithms - `starting from Introduction to Algorithms`
+SOLID, KISS, YAGNI - `starting from The Pragmatic Programmer`
+Licenses - `https://choosealicense.com/`
+Semantic Versoning - `https://github.com/semver/semver/blob/master/semver.md`
+SSH - `The Secure Shell: The Definitive Guide`
+HTTP/HTTPS and APIs - `starting from RESTful Web Services Cookbook`
+Design Patterns - `starting from Design Patterns: Elements of Reusable Object-Oriented Software`
+Character Encodings - `starting from UnicodeStandard-6.0`
+
+# Frontend path + a little backend
+
+## HTML
+
+HTML5. The missing manual
+https://diveintohtml5.info/
+
+## CSS 
+
+CSS: The Missing Manual 
+CSS Secrets: Better Solutions
+
+## JS
+
+https://eloquentjavascript.net/
+https://learn.javascript.ru
+https://learn.javascript.ru/pre-coding
+http://exploringjs.com/index.html - here some free books!
+JavaScript: The Definitive Guide
+You Don’t Know JS
+JavaScript: The Good Parts 
+Secrets of the JavaScript Ninja
+JavaScript Patterns
+The Principles of Object-Oriented JavaScript 
+Programming JavaScript Applications
+
+## Python
+
+https://github.com/GnuriaN/Python-Roadmap
+
 # OS [Linux based - KDE]
 
 ## Jumps (run or raise) to windows
