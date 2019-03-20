@@ -50,14 +50,12 @@ PS - <PrintScreen> key
 - Programming JavaScript Applications
 
 ## Specific
-BEM - https://ru.bem.info/methodology/
-Bootstrap, Spectre.css, Semantic UI
-Rollup
-NPM scripts
-Angular
-WebGL Programming Guide
-
-
+- BEM - https://ru.bem.info/methodology/
+- Bootstrap, Spectre.css, Semantic UI
+- Rollup
+- NPM scripts
+- Angular
+- WebGL Programming Guide
 
 # OS [Linux based - KDE]
 
