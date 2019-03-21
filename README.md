@@ -61,7 +61,7 @@ PS - <PrintScreen> key
 - Bootstrap, Spectre.css, Semantic UI
 - Rollup
 - NPM scripts
-- [ ] Angular
+- [ ] Angular - https://angular.io/docs
 - WebGL Programming Guide
 
 # Other
