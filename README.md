@@ -64,6 +64,21 @@ PS - <PrintScreen> key
 - Angular
 - WebGL Programming Guide
 
+# Other
+## Blender
+https://www.youtube.com/playlist?list=PLjEaoINr3zgHs8uzT3yqe4iHGfkCmMJ0P
+https://www.youtube.com/channel/UCdioEctcBLd2nw2aQkl8msw
+https://www.youtube.com/user/DarrinLile/videos
+https://docs.blender.org/manual/en/latest/
+## Unity
+https://unity3d.com/learn/tutorials
+https://docs.unity3d.com/Manual/index.html
+https://www.youtube.com/user/Unity3D/playlists
+## GIMP
+https://www.gimp.org/docs/
+https://www.gimp.org/tutorials/
+https://www.youtube.com/watch?v=5S3nyq1dyKs&list=PLVhl7-zCOVC0bg49oo-FaVgJOzRqqwrML
+
 # OS [Linux based - KDE]
 
 ## Jumps (run or raise) to windows
