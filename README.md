@@ -22,6 +22,8 @@ PS - <PrintScreen> key
 - HTTP/HTTPS and APIs - `starting from RESTful Web Services Cookbook`
 - Design Patterns - `starting from Design Patterns: Elements of Reusable Object-Oriented Software`
 - Character Encodings - `starting from UnicodeStandard-6.0`
+---
+- Additional: Code Complete, Test Driven Development: By Example, Code: The Hidden Language
 
 # Frontend path + a little backend
 
@@ -48,8 +50,13 @@ PS - <PrintScreen> key
 - JavaScript Patterns
 - The Principles of Object-Oriented JavaScript 
 - Programming JavaScript Applications
+- https://nodeschool.io/
+- Node.js Design Patterns
+- https://github.com/sorrycc/awesome-javascript
+
 
 ## Specific
+
 - BEM - https://ru.bem.info/methodology/
 - Bootstrap, Spectre.css, Semantic UI
 - Rollup
