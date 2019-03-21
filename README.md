@@ -27,6 +27,9 @@ PS - <PrintScreen> key
 - [ ] Test Driven Development: By Example
 - [ ] Code: The Hidden Language
 - [ ] The Clean Coder
+- [ ] https://practicalli.github.io/spacemacs/
+- [ ] http://spacemacs.org/doc/DOCUMENTATION.html
+- [ ] https://www.jetbrains.com/idea/documentation/
 
 # Frontend path + a little backend
 
