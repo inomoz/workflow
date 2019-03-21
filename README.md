@@ -67,7 +67,7 @@ PS - <PrintScreen> key
 - Bootstrap, Spectre.css, Semantic UI
 - Rollup
 - NPM scripts
-- [ ] Angular - https://angular.io/docs
+- [ ] Vue - Vue JS 2 - The Complete Guide 
 - WebGL Programming Guide
 
 # Other
@@ -536,3 +536,11 @@ tmux, p7zip-full, xcape, pyenv, fzf, googler + surfraw, trash-cli, parallel, spa
 ## Specific
 https://api.github.com/licenses + jq
 
+## Pet projects base
+https://github.com/kritzware/twitch-bot
+https://github.com/yandex/tomita-parser
+https://github.com/matthewmueller/x-ray
+https://habr.com/ru/post/317732/
+https://github.com/request/request
+https://en.wikipedia.org/w/api.php?action=help&modules=query%2Bextracts
+https://github.com/negezor/vk-io
