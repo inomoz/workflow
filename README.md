@@ -69,6 +69,7 @@ PS - <PrintScreen> key
 - NPM scripts
 - [ ] Vue - Vue JS 2 - The Complete Guide 
 - WebGL Programming Guide
+- [ ] https://v1.vuepress.vuejs.org/
 
 # Other
 
@@ -531,7 +532,7 @@ gT or :tabprev or :tabp # move to the previous tab
 ```
 
 ## Utilites
-tmux, p7zip-full, xcape, pyenv, fzf, googler + surfraw, trash-cli, parallel, spark, sshfs, sshrc, thefuck, tldr, emoj, bcal, git-extras, git-open, hub, aria2, httpie, mpv, youtube-dl, jq, rtv, rainbowstream, freegeoip, caniuse-cmd, maim, yank, currency, mapscii, howdoi, doctoc, grc (fish specific), gotty (share terminal), asciicast2gif, locust, mutt, mps-youtube, twitchy, metalsmith
+tmux, p7zip-full, xcape, pyenv, fzf, googler + surfraw, trash-cli, parallel, spark, sshfs, sshrc, thefuck, tldr, emoj, bcal, git-extras, git-open, hub, aria2, httpie, mpv, youtube-dl, jq, rtv, rainbowstream, freegeoip, caniuse-cmd, maim, yank, currency, mapscii, howdoi, doctoc, grc (fish specific), gotty (share terminal), asciicast2gif, locust, mutt, mps-youtube, twitchy
 
 ## Specific
 https://api.github.com/licenses + jq
