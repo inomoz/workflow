@@ -23,7 +23,10 @@ PS - <PrintScreen> key
 - [ ] Design Patterns - `starting from Design Patterns: Elements of Reusable Object-Oriented Software`
 - [ ] Character Encodings - `starting from UnicodeStandard-6.0`
 ---
-- [ ] Additional: Code Complete, [ ] Test Driven Development: By Example, [ ] Code: The Hidden Language
+- [ ] Code Complete
+- [ ] Test Driven Development: By Example
+- [ ] Code: The Hidden Language
+- [ ] The Clean Coder
 
 # Frontend path + a little backend
 
@@ -87,6 +90,10 @@ PS - <PrintScreen> key
 ## ;-)
 - [ ] You Can Draw in 30 Days
 - [ ] The Art of Electronics 
+- [ ] What Is Mathematics?
+- [ ] Элементарная математика (Сканави)
+- [ ] Modern Engineering Mathematics
+- [ ] ftp://ftp.mccme.ru/users/shen/logic/sets
 
 # Base Setup (need merge)
 https://github.com/chriskempson/base16#template-repositories - color schemes (current Google-Dark)
