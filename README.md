@@ -102,11 +102,11 @@ PS - Take Screen Selection
 ## Window management
 
 ```
-!h          - Hide window
-!m          - Maximize window
-^+r         - Resize window
-^+q         - Close window
-^+backspace - Kill Window (need click to window)
+#z          - Hide window
+#+z         - Maximize window
+#r          - Resize window
+#+q         - Close window
+#backspace - Kill Window (need click to window)
 #Up, #Down, #Left, #Right - move window to top, bottom, left, right of screen
 !`          - walk through group
 !+`         - reverse walk through group
