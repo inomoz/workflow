@@ -88,6 +88,10 @@ PS - <PrintScreen> key
 - [ ] You Can Draw in 30 Days
 - [ ] The Art of Electronics 
 
+# Base Setup (need merge)
+https://github.com/chriskempson/base16#template-repositories - color schemes (current Google-Dark)
+https://github.com/inomoz/dotfiles_old
+https://github.com/inomoz/draft_dotfiles/
 
 # OS [Linux based - KDE]
 
