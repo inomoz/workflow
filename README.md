@@ -13,7 +13,7 @@ PS - <PrintScreen> key
 
 # Base path
 - [ ] GIT/GitHub - `https://git-scm.com/book/ru/v2/`
-- [ ] Basic Terminal Usage - `The Unix Programming Environment`
+- [ ] Basic Terminal Usage - `The Unix Programming Environment`, `https://github.com/Idnan/bash-guide`, `https://github.com/jlevy/the-art-of-command-line`, `https://wiki.bash-hackers.org/`, `https://google.github.io/styleguide/shell.xml`, 
 - [ ] Data Structures & Algorithms - `starting from Introduction to Algorithms`
 - [ ] SOLID, KISS, YAGNI - `starting from The Pragmatic Programmer`
 - [ ] Licenses - `https://choosealicense.com/`
@@ -529,3 +529,10 @@ gT or :tabprev or :tabp # move to the previous tab
 :tabonly or :tabo       # close all tabs except for the current one
 :tabdo command          # run the command on all tabs (e.g. :tabdo q - closes all opened tabs)
 ```
+
+## Utilites
+tmux, p7zip-full, xcape, pyenv, fzf, googler + surfraw, trash-cli, parallel, spark, sshfs, sshrc, thefuck, tldr, emoj, bcal, git-extras, git-open, hub, aria2, httpie, mpv, youtube-dl, jq, rtv, rainbowstream, freegeoip, caniuse-cmd, maim, yank, currency, mapscii, howdoi, doctoc, grc (fish specific), gotty (share terminal), asciicast2gif, locust, mutt, 
+
+## Specific
+https://api.github.com/licenses + jq
+
