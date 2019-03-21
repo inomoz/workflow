@@ -84,7 +84,9 @@ PS - <PrintScreen> key
 - [ ] https://www.youtube.com/watch?v=oEuFP7U7tB8&list=PLURZdvzBgI3r3CnaSPrG5JbhCpjn46cMX
 ## FreeCad
 - https://www.youtube.com/channel/UC_9HwDkwxllq5lFGkYBIH9g
-
+## ;-)
+- [ ] You Can Draw in 30 Days
+- [ ] The Art of Electronics 
 
 
 # OS [Linux based - KDE]
