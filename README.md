@@ -74,10 +74,18 @@ PS - <PrintScreen> key
 - https://unity3d.com/learn/tutorials
 - https://docs.unity3d.com/Manual/index.html
 - https://www.youtube.com/user/Unity3D/playlists
-## GIMP
+## GIMP && Inkscape
 - https://www.gimp.org/docs/
 - https://www.gimp.org/tutorials/
-- https://www.youtube.com/watch?v=5S3nyq1dyKs&list=PLVhl7-zCOVC0bg49oo-FaVgJOzRqqwrML
+- https://inkscape-manuals.readthedocs.io/en/latest/
+- https://inkscape.org/learn/tutorials/
+- https://www.youtube.com/channel/UCEQXp_fcqwPcqrzNtWJ1w9w/playlists
+## Resolve
+- https://www.youtube.com/watch?v=oEuFP7U7tB8&list=PLURZdvzBgI3r3CnaSPrG5JbhCpjn46cMX
+## FreeCad
+- https://www.youtube.com/channel/UC_9HwDkwxllq5lFGkYBIH9g
+
+
 
 # OS [Linux based - KDE]
 
