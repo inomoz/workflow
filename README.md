@@ -94,6 +94,7 @@ PS - <PrintScreen> key
 - [ ] Элементарная математика (Сканави)
 - [ ] Modern Engineering Mathematics
 - [ ] ftp://ftp.mccme.ru/users/shen/logic/sets
+- [ ] OpenGL SuperBible
 
 # Base Setup (need merge)
 https://github.com/chriskempson/base16#template-repositories - color schemes (current Google-Dark)
