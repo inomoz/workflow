@@ -12,18 +12,18 @@ PS - <PrintScreen> key
 ```
 
 # Base path
-- GIT/GitHub - `https://git-scm.com/book/ru/v2/`
-- Basic Terminal Usage - `The Unix Programming Environment`
-- Data Structures & Algorithms - `starting from Introduction to Algorithms`
-- SOLID, KISS, YAGNI - `starting from The Pragmatic Programmer`
-- Licenses - `https://choosealicense.com/`
-- Semantic Versoning - `https://github.com/semver/semver/blob/master/semver.md`
-- SSH - `The Secure Shell: The Definitive Guide`
-- HTTP/HTTPS and APIs - `starting from RESTful Web Services Cookbook`
-- Design Patterns - `starting from Design Patterns: Elements of Reusable Object-Oriented Software`
-- Character Encodings - `starting from UnicodeStandard-6.0`
+- [ ] GIT/GitHub - `https://git-scm.com/book/ru/v2/`
+- [ ] Basic Terminal Usage - `The Unix Programming Environment`
+- [ ] Data Structures & Algorithms - `starting from Introduction to Algorithms`
+- [ ] SOLID, KISS, YAGNI - `starting from The Pragmatic Programmer`
+- [ ] Licenses - `https://choosealicense.com/`
+- [ ] Semantic Versoning - `https://github.com/semver/semver/blob/master/semver.md`
+- [ ] SSH - `The Secure Shell: The Definitive Guide`
+- [ ] HTTP/HTTPS and APIs - `starting from RESTful Web Services Cookbook`
+- [ ] Design Patterns - `starting from Design Patterns: Elements of Reusable Object-Oriented Software`
+- [ ] Character Encodings - `starting from UnicodeStandard-6.0`
 ---
-- Additional: Code Complete, Test Driven Development: By Example, Code: The Hidden Language
+- [ ] Additional: Code Complete, [ ] Test Driven Development: By Example, [ ] Code: The Hidden Language
 
 # Frontend path + a little backend
 
@@ -39,8 +39,8 @@ PS - <PrintScreen> key
 
 ## JS
 
-- https://eloquentjavascript.net/
-- https://learn.javascript.ru
+- [ ] https://eloquentjavascript.net/
+- [ ] https://learn.javascript.ru
 - https://learn.javascript.ru/pre-coding
 - http://exploringjs.com/index.html - here some free books!
 - JavaScript: The Definitive Guide
@@ -57,21 +57,21 @@ PS - <PrintScreen> key
 
 ## Specific
 
-- BEM - https://ru.bem.info/methodology/
+- [ ] BEM - https://ru.bem.info/methodology/
 - Bootstrap, Spectre.css, Semantic UI
 - Rollup
 - NPM scripts
-- Angular
+- [ ] Angular
 - WebGL Programming Guide
 
 # Other
 ## Blender
-- https://www.youtube.com/playlist?list=PLjEaoINr3zgHs8uzT3yqe4iHGfkCmMJ0P
+- [ ] https://www.youtube.com/playlist?list=PLjEaoINr3zgHs8uzT3yqe4iHGfkCmMJ0P
 - https://www.youtube.com/channel/UCdioEctcBLd2nw2aQkl8msw
 - https://www.youtube.com/user/DarrinLile/videos
 - https://docs.blender.org/manual/en/latest/
 ## Unity
-- https://unity3d.com/learn/tutorials
+- [ ] https://unity3d.com/learn/tutorials
 - https://docs.unity3d.com/Manual/index.html
 - https://www.youtube.com/user/Unity3D/playlists
 ## GIMP && Inkscape
@@ -79,9 +79,9 @@ PS - <PrintScreen> key
 - https://www.gimp.org/tutorials/
 - https://inkscape-manuals.readthedocs.io/en/latest/
 - https://inkscape.org/learn/tutorials/
-- https://www.youtube.com/channel/UCEQXp_fcqwPcqrzNtWJ1w9w/playlists
+- [ ] https://www.youtube.com/channel/UCEQXp_fcqwPcqrzNtWJ1w9w/playlists
 ## Resolve
-- https://www.youtube.com/watch?v=oEuFP7U7tB8&list=PLURZdvzBgI3r3CnaSPrG5JbhCpjn46cMX
+- [ ] https://www.youtube.com/watch?v=oEuFP7U7tB8&list=PLURZdvzBgI3r3CnaSPrG5JbhCpjn46cMX
 ## FreeCad
 - https://www.youtube.com/channel/UC_9HwDkwxllq5lFGkYBIH9g
 
