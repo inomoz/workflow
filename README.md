@@ -72,23 +72,28 @@ PS - <PrintScreen> key
 - WebGL Programming Guide
 
 # Other
+
 ## Blender
 - [ ] https://www.youtube.com/playlist?list=PLjEaoINr3zgHs8uzT3yqe4iHGfkCmMJ0P
 - https://www.youtube.com/channel/UCdioEctcBLd2nw2aQkl8msw
 - https://www.youtube.com/user/DarrinLile/videos
 - https://docs.blender.org/manual/en/latest/
+
 ## Unity
 - [ ] https://unity3d.com/learn/tutorials
 - https://docs.unity3d.com/Manual/index.html
 - https://www.youtube.com/user/Unity3D/playlists
+
 ## GIMP && Inkscape
 - https://www.gimp.org/docs/
 - https://www.gimp.org/tutorials/
 - https://inkscape-manuals.readthedocs.io/en/latest/
 - https://inkscape.org/learn/tutorials/
 - [ ] https://www.youtube.com/channel/UCEQXp_fcqwPcqrzNtWJ1w9w/playlists
+
 ## Resolve
 - [ ] https://www.youtube.com/watch?v=oEuFP7U7tB8&list=PLURZdvzBgI3r3CnaSPrG5JbhCpjn46cMX
+
 ## FreeCad
 - https://www.youtube.com/channel/UC_9HwDkwxllq5lFGkYBIH9g
 ## ;-)
@@ -99,6 +104,7 @@ PS - <PrintScreen> key
 - [ ] Modern Engineering Mathematics
 - [ ] ftp://ftp.mccme.ru/users/shen/logic/sets
 - [ ] OpenGL SuperBible
+- [ ] SICP lectures
 
 # Base Setup (need merge)
 https://github.com/chriskempson/base16#template-repositories - color schemes (current Google-Dark)
