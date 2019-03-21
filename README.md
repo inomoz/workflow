@@ -75,6 +75,7 @@ PS - <PrintScreen> key
 ## Blender
 - [ ] https://www.youtube.com/playlist?list=PLjEaoINr3zgHs8uzT3yqe4iHGfkCmMJ0P
 - https://www.youtube.com/channel/UCdioEctcBLd2nw2aQkl8msw
+- https://www.youtube.com/channel/UCfjswDVU0XHyBN7UFG0Mi5Q/playlists
 - https://www.youtube.com/user/DarrinLile/videos
 - https://docs.blender.org/manual/en/latest/
 
