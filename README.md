@@ -30,6 +30,7 @@ PS - <PrintScreen> key
 - [ ] https://practicalli.github.io/spacemacs/
 - [ ] http://spacemacs.org/doc/DOCUMENTATION.html
 - [ ] https://www.jetbrains.com/idea/documentation/
+- [ ] https://github.com/alebcay/awesome-shell
 
 # Frontend path + a little backend
 
