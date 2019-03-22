@@ -70,6 +70,9 @@ PS - <PrintScreen> key
 - [ ] Vue - Vue JS 2 - The Complete Guide 
 - WebGL Programming Guide
 - [ ] https://v1.vuepress.vuejs.org/
+- [ ] https://www.lucasfcosta.com/2019/02/10/terminal-guide-2019.html
+- [ ] https://pbrisbin.com/posts/mutt_gmail_offlineimap/
+
 
 # Other
 
@@ -532,7 +535,7 @@ gT or :tabprev or :tabp # move to the previous tab
 ```
 
 ## Utilites
-tmux, p7zip-full, xcape, pyenv, fzf, googler + surfraw, trash-cli, parallel, spark, sshfs, sshrc, thefuck, tldr, emoj, bcal, git-extras, git-open, hub, aria2, httpie, mpv, youtube-dl, jq, rtv, rainbowstream, freegeoip, caniuse-cmd, maim, yank, currency, mapscii, howdoi, doctoc, grc (fish specific), gotty (share terminal), asciicast2gif, locust, mutt, mps-youtube, twitchy
+tmux, p7zip-full, xcape, pyenv, fzf, hstr, qfc (file complete...), liquidprompt, googler + surfraw, trash-cli, parallel, spark, sshfs, sshrc, thefuck, tldr, emoj, bcal, git-extras, git-open, hub, aria2, httpie, mpv, youtube-dl, jq, rtv, rainbowstream, freegeoip, caniuse-cmd, maim, yank, currency, mapscii, howdoi, doctoc, grc (fish specific), gotty (share terminal), asciicast2gif, locust, mutt, offlineimap, mps-youtube, twitchy, tig, links, wget, rclone, irssi, gotop, ncdu, ranger, bat, lftp, ncmpcpp & mopidy
 
 ## Specific
 https://api.github.com/licenses + jq
