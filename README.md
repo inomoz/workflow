@@ -70,7 +70,7 @@ PS - <PrintScreen> key
 - https://github.com/micromata/awesome-javascript-learning
 
 ## Other
-- https://github.com/BubuAnabelas/awesome-markdown#documentation
+- [ ] https://github.github.com/gfm/
 
 
 ## Specific
@@ -85,6 +85,7 @@ PS - <PrintScreen> key
 - [ ] https://www.lucasfcosta.com/2019/02/10/terminal-guide-2019.html
 - [ ] https://pbrisbin.com/posts/mutt_gmail_offlineimap/
 - https://github.com/sindresorhus/awesome
+- https://github.com/BubuAnabelas/awesome-markdown#documentation
 - https://github.com/dypsilon/frontend-dev-bookmarks
 - https://github.com/ossu/computer-science#readme
 - https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md
