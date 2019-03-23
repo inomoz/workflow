@@ -158,12 +158,6 @@ PS - <PrintScreen> key
 - [ ] SICP lectures
 - [ ] https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf
 
-
-# Base Setup (need merge)
-https://github.com/chriskempson/base16#template-repositories - color schemes (current Google-Dark)
-https://github.com/inomoz/dotfiles_old
-https://github.com/inomoz/draft_dotfiles/
-
 # OS [Linux based - KDE]
 
 ## Jumps (run or raise) to windows
@@ -591,3 +585,18 @@ https://api.github.com/licenses + jq
 
 # My opensource pet projects
 [Pet projects](PROJECTS.md)
+
+
+
+# Base Setup (need merge)
+https://github.com/chriskempson/base16#template-repositories - color schemes (current Google-Dark)
+https://github.com/inomoz/dotfiles_old
+https://github.com/inomoz/draft_dotfiles/
+
+
+# Minimal GTD
+- Plan - MITs for day, week. Major first. Do it at the beginning of each day.
+- Focus - turn off distractions, clear your space, start! incoming tasks/info - collect! Breathe deeply. Re-focus.
+- Collect - how (emacs + https://news.ycombinator.com/item?id=13829075 for mobile setup) + Sync Tool 
+- Process - at least once a day, 2 minutes - do it, trash it, delegate it, or put into todo/calendar
+Do day/week reviews, check your goals, rest often and enjoy your life =)
