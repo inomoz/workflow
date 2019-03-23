@@ -29,6 +29,7 @@ PS - <PrintScreen> key
 - [ ] Test Driven Development: By Example
 - [ ] Code: The Hidden Language
 - [ ] Clean Code
+- [ ] Program Style, Design, Efficiency, Debugging, and Testing
 - [ ] The Clean Coder
 - [ ] Soft Skills
 - [ ] Cracking the Coding Interview
@@ -151,8 +152,11 @@ PS - <PrintScreen> key
 - [ ] Элементарная математика (Сканави)
 - [ ] Modern Engineering Mathematics
 - [ ] ftp://ftp.mccme.ru/users/shen/logic/sets
+- [ ] Make Your Own Neural Network
 - [ ] OpenGL SuperBible
 - [ ] SICP lectures
+- [ ] https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf
+
 
 # Base Setup (need merge)
 https://github.com/chriskempson/base16#template-repositories - color schemes (current Google-Dark)
