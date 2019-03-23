@@ -574,11 +574,5 @@ tmux, p7zip-full, xcape, pyenv, fzf, hstr, qfc (file complete...), liquidprompt,
 ## Specific
 https://api.github.com/licenses + jq
 
-## Pet projects base
-https://github.com/kritzware/twitch-bot
-https://github.com/yandex/tomita-parser
-https://github.com/matthewmueller/x-ray
-https://habr.com/ru/post/317732/
-https://github.com/request/request
-https://en.wikipedia.org/w/api.php?action=help&modules=query%2Bextracts
-https://github.com/negezor/vk-io
+## My opensource pet projects
+![Pet projects](PROJECTS.md)
