@@ -24,10 +24,17 @@ PS - <PrintScreen> key
 - [ ] Design Patterns - `starting from Design Patterns: Elements of Reusable Object-Oriented Software`
 - [ ] Character Encodings - `starting from UnicodeStandard-6.0`
 ---
+- [ ] Structure and Interpretation of Computer Programs
 - [ ] Code Complete
 - [ ] Test Driven Development: By Example
 - [ ] Code: The Hidden Language
+- [ ] Clean Code
 - [ ] The Clean Coder
+- [ ] Soft Skills
+- [ ] Cracking the Coding Interview
+- [ ] Seven Languages in Seven Weeks
+- [ ] The Mythical Man-Month
+- [ ] Refactoring
 - [ ] http://spacemacs.org/doc/DOCUMENTATION.html
 - [ ] https://www.jetbrains.com/idea/documentation/
 - [ ] https://github.com/alebcay/awesome-shell
@@ -137,6 +144,7 @@ PS - <PrintScreen> key
 ## ;-)
 - [ ] You Can Draw in 30 Days
 - [ ] The Art of Electronics 
+- [ ] Arduino Workshop
 - [ ] What Is Mathematics?
 - [ ] Элементарная математика (Сканави)
 - [ ] Modern Engineering Mathematics
