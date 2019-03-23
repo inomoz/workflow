@@ -146,6 +146,7 @@ PS - <PrintScreen> key
 - https://www.youtube.com/channel/UC_9HwDkwxllq5lFGkYBIH9g
 ## ;-)
 - [ ] You Can Draw in 30 Days
+- [ ] Let Us C
 - [ ] The Art of Electronics 
 - [ ] Arduino Workshop
 - [ ] What Is Mathematics?
