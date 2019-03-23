@@ -12,6 +12,7 @@ PS - <PrintScreen> key
 ```
 
 # Base path
+- OSSU (0%) - [OSSU](OSSU.md)
 - [ ] GIT/GitHub - `https://git-scm.com/book/ru/v2/`
 - [ ] Basic Terminal Usage - `The Unix Programming Environment`, `https://github.com/Idnan/bash-guide`, `https://github.com/jlevy/the-art-of-command-line`, `https://wiki.bash-hackers.org/`, `https://google.github.io/styleguide/shell.xml`, 
 - [ ] Data Structures & Algorithms - `starting from Introduction to Algorithms`
