@@ -59,6 +59,10 @@ PS - <PrintScreen> key
 - https://nodeschool.io/
 - Node.js Design Patterns
 - https://github.com/sorrycc/awesome-javascript
+- https://github.com/micromata/awesome-javascript-learning
+
+## Other
+- https://github.com/BubuAnabelas/awesome-markdown#documentation
 
 
 ## Specific
@@ -72,6 +76,35 @@ PS - <PrintScreen> key
 - [ ] https://v1.vuepress.vuejs.org/
 - [ ] https://www.lucasfcosta.com/2019/02/10/terminal-guide-2019.html
 - [ ] https://pbrisbin.com/posts/mutt_gmail_offlineimap/
+- https://github.com/sindresorhus/awesome
+- https://github.com/dypsilon/frontend-dev-bookmarks
+- https://github.com/ossu/computer-science#readme
+- https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md
+- https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-ru.md
+- https://github.com/hackerkid/Mind-Expanding-Books
+- https://github.com/RyanNielson/awesome-unity
+- https://github.com/sindresorhus/awesome-scifi
+- https://github.com/ayr-ton/awesome-geek-podcasts
+- https://github.com/therebelrobot/awesome-workshopper
+- https://github.com/matteofigus/awesome-speaking
+- https://github.com/yrgo/awesome-eg
+- https://github.com/sbilly/awesome-security
+- https://github.com/HQarroum/awesome-iot
+- https://github.com/ripienaar/free-for-dev
+- https://github.com/zachflower/awesome-open-source-supporters
+- https://github.com/NARKOZ/guides
+- https://github.com/brunocvcunha/awesome-userscripts
+- https://github.com/nicolesaidy/awesome-web-design
+- https://github.com/terkelg/awesome-creative-coding
+- https://github.com/johnjago/awesome-free-software
+- https://github.com/angrykoala/awesome-esolangs
+- https://github.com/sfischer13/awesome-ledger
+- https://github.com/robinstickel/awesome-design-principles
+- https://www.wolframalpha.com/
+- https://jupyterlab.readthedocs.io/en/stable/index.html
+- https://github.com/dreamingechoes/awesome-mental-health
+
+
 
 
 # Other
