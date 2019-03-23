@@ -595,8 +595,11 @@ https://github.com/inomoz/draft_dotfiles/
 
 
 # Minimal GTD
+https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html
+Fast activate/deactivate org-mode by hotkey ^<space>
 - Plan - MITs for day, week. Major first. Do it at the beginning of each day.
 - Focus - turn off distractions, clear your space, start! incoming tasks/info - collect! Breathe deeply. Re-focus.
+Focus helpers: https://brain.fm/, https://www.youtube.com/watch?v=WPni755-Krg&list=RDcyiEv7khrH0&index=2
 - Collect - how (emacs + https://news.ycombinator.com/item?id=13829075 for mobile setup) + Sync Tool 
 - Process - at least once a day, 2 minutes - do it, trash it, delegate it, or put into todo/calendar
 Do day/week reviews, check your goals, rest often and enjoy your life =)
