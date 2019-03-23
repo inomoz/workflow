@@ -36,6 +36,7 @@ PS - <PrintScreen> key
 - [ ] The Mythical Man-Month
 - [ ] Refactoring
 - [ ] http://spacemacs.org/doc/DOCUMENTATION.html
+- [ ] https://orgmode.org/org.pdf
 - [ ] https://www.jetbrains.com/idea/documentation/
 - [ ] https://github.com/alebcay/awesome-shell
 
