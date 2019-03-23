@@ -6,3 +6,10 @@
 - https://github.com/request/request 
 - https://en.wikipedia.org/w/api.php?action=help&modules=query%2Bextracts 
 - https://github.com/negezor/vk-io
+
+# Skyrim
+built-in feature with papyrus scripts
+xml integration with nodejs server and twitch api
+
+# xherosiege
+https://github.com/Aleqsd/Heroes-of-the-Skills
