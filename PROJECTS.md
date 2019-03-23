@@ -11,5 +11,5 @@
 built-in feature with papyrus scripts
 xml integration with nodejs server and twitch api
 
-# xherosiege
+# xherosiege (cool base?)
 https://github.com/Aleqsd/Heroes-of-the-Skills
