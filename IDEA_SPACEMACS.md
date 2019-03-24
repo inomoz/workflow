@@ -2,8 +2,6 @@ https://ztlevi.github.io/posts/The-Minimal-Spacemacs-Tweaks-for-Jetbrain-IDES/
 
 ```
 SPC f c   	copy current file to a different location	
-SPC f C d 	convert file from unix to dos encoding	
-SPC f C u 	convert file from dos to unix encoding	
 SPC f D   	delete a file and the associated buffer (ask for confirmation)	
 SPC f E   	open a file with elevated privileges (sudo edit)	
 SPC f f   	open file with =helm= (or =ido=)	
