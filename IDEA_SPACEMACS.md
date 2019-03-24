@@ -1,8 +1,8 @@
 https://ztlevi.github.io/posts/The-Minimal-Spacemacs-Tweaks-for-Jetbrain-IDES/
 
 ```
-
-Remember these Shortcuts
+## IDEA                            Description                                    ## SpaceIdea     # Spacemacs
+Remember these Shortcuts 
 Ctrl + Shift + Space               Smart code completion
 Double Shift                       Search everywhere 
 Alt + Enter                        Show intention actions and quick-fixes
