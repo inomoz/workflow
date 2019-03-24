@@ -214,7 +214,7 @@ PS - Take Screen Selection
 ### System Audo Player
 
 ```
-#+g - Play/Pause   #^g Stop                          
+#+g - Play/Pause   #^g Stop   #g current song                         
 #+j - Next track
 #+k - Prev track
 #+l - Vol. up (player only) ->
