@@ -1,5 +1,7 @@
+```
 cd ~
 git clone https://github.com/MarcoIeni/intelli-space
+```
 
 ~/.ideavimrc
 
