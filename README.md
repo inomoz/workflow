@@ -214,8 +214,7 @@ PS - Take Screen Selection
 ### System Audo Player
 
 ```
-#g OSD
-#+g - Play/Pause                              #^g - Change Shuffle 
+#+g - Play/Pause   #^g Stop                          
 #+j - Next track
 #+k - Prev track
 #+l - Vol. up (player only) ->
