@@ -1,3 +1,288 @@
+
+# OS [Linux based - KDE]
+
+## Jumps (run or raise) to windows
+>I use jumpapp and KDE custom shortcuts bindings for this functional. https://github.com/mkropat/jumpapp
+>if you use jumpapp, it can switch between `same windows` or between `other` and `latest` window!
+```
+#1 - Main web browser (Google Chrome)         #+1 - RSS reader (Akregator)
+#2 - Lightweight editor (Emacs + Evil)        #+2 - Image editor (Gimp)
+#3 - Terminal emulator (Alacritty)            #+3 - Documentation browser (Zeal)
+#4 - IDE (IntellJ)                            #+4 - Image/PDF preview (Zathura)
+#5 - Email Client (Kmail)                     #+5 - Messaging (...)
+#6 - Audio Player (Cantata)                   #+6 - DAW (Ardour)
+#7 - Media Player (MPV)                       #+6 - 3D Software (Blender)
+#8 - Flash Cards (Anki)                       #+8 - Typing Tutor (Klavaro)
+#9 - Video Recording (OBS)                    #+9 - Video Montage (Davinci Resolve)
+#0 - Game Engine (UE, t.MaxFPS 30, w. refl.)  #+0 - Mind Map (freemind)
+#- - CAD (FreeCAD)                            #+- - EDA (KiCAD)
+#\+ - Vector Editor (Inkscape)                #+\+ - 2D Animation (OpenToonz) 
+#[ - System Monitor (KSysGuard)               #+[ - System Settings
+#] - Virtual Machines (Virtualbox)            #+] - Android Emulator (Anbox)
+#s - Games Library (Steam)                    #+s - Alternative Games Library (Lutris)
+#a - Image viewer (Feh)                       #+a - ScreenShoot Tool (Spectacle)
+```
+
+## Base
+```
+#d - Command Runner
+#f - Presentation mode (quick swithc between windows)
+#+f - Presentation mode for current windows group
+#+c - Clipboard history
+#^c - Clear Clipboard history
+PS - Take Screen Selection
+#PS - Take Window Screenshoot
+```
+
+## Window management
+
+```
+#z          - Hide window
+#+z         - Maximize window
+#r          - Resize window
+#+q         - Close window
+#backspace - Kill Window (need click to window)
+#Up, #Down, #Left, #Right - move window to top, bottom, left, right of screen
+!`          - walk through group
+!+`         - reverse walk through group
+#F11        - Full Screen
+```
+
+## Media Controls
+
+### System Audo Player
+
+```
+#+g - Play/Pause   #^g Stop   #g current song                         
+#+j - Next track
+#+k - Prev track
+#+l - Vol. up (player only) ->
+#+h - Vol. down (player only) <-
+
+```
+
+### Browser Audio Player
+
+```
+!+g - Play/Pause                              #g OSD
+!+k - Next track
+!+j - Prev track
+```
+
+## KeyNav (mouse control using keyboard)
+```
+^; - activate KeyNav
+h,j,k,l - activate region
++h, +j - move region left, right
+; - move cur to center of region
+<space> - move mouse and left click
+<Esc> - cancel move
+```
+
+
+# Surfing Keys
+```
+j, <c-e> Scroll down                                 o     Open URL, bookmark or history entry
+k, <c-y> Scroll up                                   O     Open URL, bookmark or history entry in a new tab
+gg       Scroll to the top of the page               b     Open a bookmark
+G        Scroll to the bottom of the page            B     Open a bookmark in a new tab
+d        Scroll a half page down                     T     Search through your open tabs
+u        Scroll a half page up                       /     Enter find mode
+h        Scroll left                                 n     Cycle forward to the next find match
+l        Scroll right                                N     Cycle backward to the previous find match
+r        Reload the page                             H     Go back in history
+yy       Copy the current URL to the clipboard       L     Go forward in history
+p        Open the clipboard's URL in the current tab t     Create new tab
+P        Open the clipboard's URL in a new tab       J, gT Go one tab left
+i        Enter insert mode                           K, gt Go one tab right
+v        Enter visual mode                           ^     Go to previously-visited tab
+gi       Focus the first text input on the page      g0    Go to the first tab
+f        Open a link in the current tab              g$    Go to the last tab
+F        Open a link in a new tab                    yt    Duplicate current tab
+gf       Select the next frame on the page           <a-p> Pin or unpin current tab
+gF       Select the page's main/top frame            <a-m> Mute or unmute current tab
+x        Close current tab                           X     Restore closed tab 
+?  Show help
+```
+
+# VIM based Editor
+
+## Global
+```bash
+:help keyword # open help for keyword
+:o file       # open file
+:saveas file  # save file as
+:close        # close current pane
+```
+
+## Cursor movement
+```bash
+h        # move cursor left
+j        # move cursor down
+k        # move cursor up
+l        # move cursor right
+H        # move to top of screen
+M        # move to middle of screen
+L        # move to bottom of screen
+w        # jump forwards to the start of a word
+W        # jump forwards to the start of a word (words can contain punctuation)
+e        # jump forwards to the end of a word
+E        # jump forwards to the end of a word (words can contain punctuation)
+b        # jump backwards to the start of a word
+B        # jump backwards to the start of a word (words can contain punctuation)
+0        # jump to the start of the line
+^        # jump to the first non-blank character of the line
+$        # jump to the end of the line
+g_       # jump to the last non-blank character of the line
+gg       # go to the first line of the document
+G        # go to the last line of the document
+5G       # go to line 5
+fx       # jump to next occurrence of character x
+tx       # jump to before next occurrence of character x
+}        # jump to next paragraph (or function/block, when editing code)
+{        # jump to previous paragraph (or function/block, when editing code)
+zz       # center cursor on screen
+Ctrl + b # move back one full screen
+Ctrl + f # move forward one full screen
+Ctrl + d # move forward 1/2 a screen
+Ctrl + u # move back 1/2 a screen
+```
+
+## Insert mode - inserting/appending text
+```bash
+i        # insert before the cursor
+I        # insert at the beginning of the line
+a        # insert (append) after the cursor
+A        # insert (append) at the end of the line
+o        # append (open) a new line below the current line
+O        # append (open) a new line above the current line
+ea       # insert (append) at the end of the word
+Esc      # exit insert mode
+```
+
+## Editing
+```bash
+r        # replace a single character
+J        # join line below to the current one
+cc       # change (replace) entire line
+cw       # change (replace) to the start of the next word
+ce       # change (replace) to the end of the next word
+cb       # change (replace) to the start of the previous word
+c0       # change (replace) to the start of the line
+c$       # change (replace) to the end of the line
+s        # delete character and substitute text
+S        # delete line and substitute text (same as cc)
+xp       # transpose two letters (delete and paste)
+.        # repeat last command
+u        # undo
+Ctrl + r # redo
+```
+
+## Marking text (visual mode)
+```bash
+v        # start visual mode, mark lines, then do a command (like y-yank)
+V        # start linewise visual mode
+o        # move to other end of marked area
+O        # move to other corner of block
+aw       # mark a word
+ab       # a block with ()
+aB       # a block with {}
+ib       # inner block with ()
+iB       # inner block with {}
+Esc      # exit visual mode
+Ctrl + v # start visual block mode
+```
+
+## Visual commands
+```bash
+>       # shift text right
+<       # shift text left
+y       # yank (copy) marked text
+d       # delete marked text
+~       # switch case
+```
+
+## Cut and paste
+```bash
+yy       # yank (copy) a line
+2yy      # yank (copy) 2 lines
+yw       # yank (copy) the characters of the word from the cursor position to the start of the next word
+y$       # yank (copy) to end of line
+p        # put (paste) the clipboard after cursor
+P        # put (paste) before cursor
+dd       # delete (cut) a line
+2dd      # delete (cut) 2 lines
+dw       # delete (cut) the characters of the word from the cursor position to the start of the next word
+D        # delete (cut) to the end of the line
+d$       # delete (cut) to the end of the line
+d^       # delete (cut) to the first non-blank character of the line
+d0       # delete (cut) to the begining of the line
+x        # delete (cut) character
+```
+
+## Search and replace
+```bash
+/pattern       # search for pattern
+?pattern       # search backward for pattern
+\vpattern      # 'very magic' pattern: non-alphanumeric characters are interpreted as special regex symbols (no escaping needed)
+n              # repeat search in same direction
+N              # repeat search in opposite direction
+:%s/old/new/g  # replace all old with new throughout file
+:%s/old/new/gc # replace all old with new throughout file with confirmations
+:noh           # remove highlighting of search matches
+```
+
+## Search in multiple files
+```bash
+:vimgrep /pattern/ {file} # search for pattern in multiple files
+:cn                       # jump to the next match
+:cp                       # jump to the previous match
+:copen                    # open a window containing the list of matches
+```
+
+## Exiting
+```bash
+:w              # write (save) the file, but don't exit
+:w !sudo tee %  # write out the current file using sudo
+:wq or :x or ZZ # write (save) and quit
+:q              # quit (fails if there are unsaved changes)
+:q! or ZQ       # quit and throw away unsaved changes
+```
+
+## Working with multiple files
+```bash
+:e file       # edit a file in a new buffer
+:bnext or :bn # go to the next buffer
+:bprev or :bp # go to the previous buffer
+:bd           # delete a buffer (close a file)
+:ls           # list all open buffers
+:sp file      # open a file in a new buffer and split window
+:vsp file     # open a file in a new buffer and vertically split window
+Ctrl + ws     # split window
+Ctrl + ww     # switch windows
+Ctrl + wq     # quit a window
+Ctrl + wv     # split window vertically
+Ctrl + wh     # move cursor to the left window (vertical split)
+Ctrl + wl     # move cursor to the right window (vertical split)
+Ctrl + wj     # move cursor to the window below (horizontal split)
+Ctrl + wk     # move cursor to the window above (horizontal split)
+```
+
+## Tabs
+```bash
+:tabnew or :tabnew file # open a file in a new tab
+Ctrl + wT               # move the current split window into its own tab
+gt or :tabnext or :tabn # move to the next tab
+gT or :tabprev or :tabp # move to the previous tab
+<number>gt              # move to tab <number>
+:tabmove <number>       # move current tab to the <number>th position (indexed from 0)
+:tabclose or :tabc      # close the current tab and all its windows
+:tabonly or :tabo       # close all tabs except for the current one
+:tabdo command          # run the command on all tabs (e.g. :tabdo q - closes all opened tabs)
+```
+
+
+
 ```
 ## IDEA                            Description                                    ## SpaceIdea     # Spacemacs
 Remember these Shortcuts 
