@@ -402,6 +402,31 @@ Surround with Live Template Ctrl + Alt + J
 Insert Live Template Ctrl + J
 ```
 
+# Surfing Keys
+```
+j, <c-e> Scroll down                                 o     Open URL, bookmark or history entry
+k, <c-y> Scroll up                                   O     Open URL, bookmark or history entry in a new tab
+gg       Scroll to the top of the page               b     Open a bookmark
+G        Scroll to the bottom of the page            B     Open a bookmark in a new tab
+d        Scroll a half page down                     T     Search through your open tabs
+u        Scroll a half page up                       /     Enter find mode
+h        Scroll left                                 n     Cycle forward to the next find match
+l        Scroll right                                N     Cycle backward to the previous find match
+r        Reload the page                             H     Go back in history
+yy       Copy the current URL to the clipboard       L     Go forward in history
+p        Open the clipboard's URL in the current tab t     Create new tab
+P        Open the clipboard's URL in a new tab       J, gT Go one tab left
+i        Enter insert mode                           K, gt Go one tab right
+v        Enter visual mode                           ^     Go to previously-visited tab
+gi       Focus the first text input on the page      g0    Go to the first tab
+f        Open a link in the current tab              g$    Go to the last tab
+F        Open a link in a new tab                    yt    Duplicate current tab
+gf       Select the next frame on the page           <a-p> Pin or unpin current tab
+gF       Select the page's main/top frame            <a-m> Mute or unmute current tab
+x        Close current tab                           X     Restore closed tab 
+?  Show help
+```
+
 # VIM based Editor
 
 ## Global
