@@ -579,7 +579,7 @@ gT or :tabprev or :tabp # move to the previous tab
 ```
 
 ## Utilites
-tmux, p7zip-full, xcape, pyenv, fzf, hstr, qfc (file complete...), liquidprompt, googler + surfraw, trash-cli, parallel, spark, sshfs, sshrc, thefuck, tldr, emoj, bcal, git-extras, git-open, hub, aria2, httpie, mpv, youtube-dl, jq, rtv, rainbowstream, freegeoip, caniuse-cmd, maim, yank, currency, mapscii, howdoi, doctoc, grc (fish specific), gotty (share terminal), asciicast2gif, locust, mutt, offlineimap, mps-youtube, twitchy, tig, links, wget, rclone, irssi, gotop, ncdu, ranger, bat, lftp, ncmpcpp & mopidy, ripgrep (aka rg)
+tmux, p7zip-full, xcape, pyenv, fzf, hstr, qfc (file complete...), liquidprompt, googler + surfraw, trash-cli, parallel, spark, sshfs, sshrc, thefuck, tldr, emoj, bcal, git-extras, git-open, hub, aria2, httpie, mpv, youtube-dl, jq, rtv, rainbowstream, freegeoip, caniuse-cmd, maim, yank, currency, mapscii, howdoi, doctoc, grc (fish specific), gotty (share terminal), asciicast2gif, locust, mutt, offlineimap, mps-youtube, twitchy, tig, links, wget, rclone, irssi, gotop, ncdu, ranger, bat, lftp, mopidy, ripgrep (aka rg)
 
 ## Specific
 https://api.github.com/licenses + jq
