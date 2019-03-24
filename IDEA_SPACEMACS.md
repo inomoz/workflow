@@ -1,6 +1,59 @@
 https://ztlevi.github.io/posts/The-Minimal-Spacemacs-Tweaks-for-Jetbrain-IDES/
 
 ```
+
+Key	Description
+C-i	Forward
+C-o	Go back
+g d	Go to declaration
+g h	Go to Documentation
+g r	Find Usages
+g s	Go to Symbol
+leader ’	Active terminal window
+leader R	reload ~/.ideavimrc
+leader a a	Select All
+leader a l	Prompt action list
+leader b b (<CR>)	Recent files (You can still use command+e or ctrl+e)
+leader b i	Active structure tool window
+leader b u	Reopen Closed Tab
+leader c c	Go to Class
+leader d D	Debug Class
+leader d d	Debug
+leader e e	show error description
+leader f T	Select current file in project view
+leader f b	Show Bookmarks
+leader f d	Smart search launcher (You have to install Dash or Zeal first)
+leader f f	Search Everywhere
+leader f s	save all files (I still use command+s or ctrl+s)
+leader f t	Active file tree window
+leader i m	Implement Methods
+leader g S/	Active version control window
+leader g s	Vsc quick list pop up
+leader j i	Fire structure pop up (similar to structure tool)
+leader j j	Ace Action
+leader j l	Ace Line Action
+leader m =	beautify file
+leader r R	Run Class
+leader r p	Replace in project
+leader r r	Run
+leader s s	Stop
+leader s p	Search in project
+leader space	Go to Action
+leader t b	Toggle Bookmark
+leader t t	Toggle Line Breakpoint
+leader w [lhjk]	navigate window
+leader w c	close window
+leader w m	hide all windows except the editor tabs (You can invoke again to revert)
+leader w s	split window horizontally
+leader w v	split window vertically
+leader w z	Toggle Zen mode
+z C	collapse all region
+z O	expand all region
+z c	collapse region
+z o	expand region
+```
+
+```
 SPC f c   	copy current file to a different location	
 SPC f D   	delete a file and the associated buffer (ask for confirmation)	
 SPC f E   	open a file with elevated privileges (sudo edit)	
