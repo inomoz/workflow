@@ -95,7 +95,7 @@ PS - <PrintScreen> key
 - https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md
 - https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-ru.md
 - https://github.com/hackerkid/Mind-Expanding-Books
-- https://github.com/RyanNielson/awesome-unity
+- https://github.com/terrehbyte/awesome-ue4
 - https://github.com/sindresorhus/awesome-scifi
 - https://github.com/ayr-ton/awesome-geek-podcasts
 - https://github.com/therebelrobot/awesome-workshopper
@@ -129,10 +129,10 @@ PS - <PrintScreen> key
 - https://www.youtube.com/user/DarrinLile/videos
 - https://docs.blender.org/manual/en/latest/
 
-## Unity
-- [ ] https://unity3d.com/learn/tutorials
-- https://docs.unity3d.com/Manual/index.html
-- https://www.youtube.com/user/Unity3D/playlists
+## Unreal
+- [ ] https://docs.unrealengine.com/en-us/
+- https://academy.unrealengine.com/
+- https://www.youtube.com/channel/UCLbkGIcYJxxL0tciH9RVebg/playlists
 
 ## GIMP && Inkscape
 - https://www.gimp.org/docs/
@@ -175,7 +175,7 @@ PS - <PrintScreen> key
 #7 - Media Player (MPV)                       #+6 - 3D Software (Blender)
 #8 - Flash Cards (Anki)                       #+8 - Typing Tutor (Klavaro)
 #9 - Video Recording (OBS)                    #+9 - Video Montage (Davinci Resolve)
-#0 - Game Engine (Unity 3D)                   #+0 - Mind Map (freemind)
+#0 - Game Engine (UE, t.MaxFPS 30, w. refl.)  #+0 - Mind Map (freemind)
 #- - CAD (FreeCAD)                            #+- - EDA (KiCAD)
 #\+ - Vector Editor (Inkscape)                #+\+ - 2D Animation (OpenToonz) 
 #[ - System Monitor (KSysGuard)               #+[ - System Settings
