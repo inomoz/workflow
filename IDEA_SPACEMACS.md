@@ -1,5 +1,3 @@
-https://ztlevi.github.io/posts/The-Minimal-Spacemacs-Tweaks-for-Jetbrain-IDES/
-
 ```
 ## IDEA                            Description                                    ## SpaceIdea     # Spacemacs
 Remember these Shortcuts 
@@ -395,3 +393,10 @@ z O	expand all region
 z c	collapse region
 z o	expand region
 ```
+
+
+PLAN:
+each day configure 10 shortcuts
+helpers: actionlist
+         https://ztlevi.github.io/posts/The-Minimal-Spacemacs-Tweaks-for-Jetbrain-IDES/
+	 ~/.ideavimrc
