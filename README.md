@@ -186,3 +186,5 @@ Focus helpers: https://brain.fm/, https://www.youtube.com/watch?v=WPni755-Krg&li
 - Collect - how (emacs + https://news.ycombinator.com/item?id=13829075 for mobile setup) + Sync Tool 
 - Process - at least once a day, 2 minutes - do it, trash it, delegate it, or put into todo/calendar
 Do day/week reviews, check your goals, rest often and enjoy your life =)
+  
+  - https://kkatsuyuki.github.io/notmuch-conf/
