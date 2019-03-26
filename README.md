@@ -188,3 +188,6 @@ Focus helpers: https://brain.fm/, https://www.youtube.com/watch?v=WPni755-Krg&li
 Do day/week reviews, check your goals, rest often and enjoy your life =)
   
   - https://kkatsuyuki.github.io/notmuch-conf/
+
+# Emacs specific
+C-x b - helm switch to buffer
