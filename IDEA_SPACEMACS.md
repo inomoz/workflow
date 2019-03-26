@@ -6,10 +6,10 @@
 >if you use jumpapp, it can switch between `same windows` or between `other` and `latest` window!
 ```
 #1 - Main web browser (Google Chrome)         #+1 - RSS reader (Akregator)
-#2 - Lightweight editor (Emacs + Evil)        #+2 - Image editor (Gimp)
+#2 - Code editor++ (Emacs + Evil)             #+2 - Image editor (Gimp)
 #3 - Terminal emulator (Alacritty)            #+3 - Documentation browser (Zeal)
 #4 - IDE (IntellJ)                            #+4 - Image/PDF preview (Zathura)
-#5 - Email Client (Kmail)                     #+5 - Messaging (...)
+#5 - UI prototyping (Figma)                   #+5 - Messaging (...)
 #6 - Audio Player (Cantata)                   #+6 - DAW (Ardour)
 #7 - Media Player (MPV)                       #+6 - 3D Software (Blender)
 #8 - Flash Cards (Anki)                       #+8 - Typing Tutor (Klavaro)
