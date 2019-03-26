@@ -165,6 +165,7 @@ tmux, p7zip-full, xcape, pyenv, fzf, hstr, qfc (file complete...), liquidprompt,
 
 ## Specific
 https://api.github.com/licenses + jq
+https://github.com/bennadel/git-cheat-sheet 
 
 # My opensource pet projects
 [Pet projects](PROJECTS.md)
