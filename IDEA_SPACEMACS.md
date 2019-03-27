@@ -9,7 +9,7 @@
 #2 - Code editor++ (Emacs + Evil)             #+2 - Image editor (Gimp)
 #3 - Terminal emulator (Alacritty)            #+3 - Documentation browser (Zeal)
 #4 - IDE (IntellJ)                            #+4 - Messaging (...)
-#5 - UI prototyping (Figma)                   #+5 - Image/PDF preview (Zathura)
+#5 - Image Preview (Nomacs)                   #+5 - PDF preview (Zathura)
 #6 - Audio Player (Cantata)                   #+6 - DAW (Ardour)
 #7 - Media Player (MPV)                       #+6 - 3D Software (Blender)
 #8 - Flash Cards (Anki)                       #+8 - Typing Tutor (Klavaro)
