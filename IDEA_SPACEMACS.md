@@ -64,9 +64,9 @@ PS - Take Screen Selection
 ### Browser Audio Player
 
 ```
-!+g - Play/Pause                              #g OSD
-!+k - Next track
-!+j - Prev track
+!+g - Play/Pause
+!+j - Next track
+!+k - Prev track
 ```
 
 ### Global movements
