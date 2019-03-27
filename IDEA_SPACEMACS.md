@@ -685,3 +685,4 @@ each day configure 10 shortcuts
 helpers: actionlist
          https://ztlevi.github.io/posts/The-Minimal-Spacemacs-Tweaks-for-Jetbrain-IDES/
 	 ~/.ideavimrc
+	 https://superuser.com/questions/96299/mapping-superhjkl-to-arrow-keys-under-x
