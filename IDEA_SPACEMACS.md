@@ -70,10 +70,12 @@ PS - Take Screen Selection
 ```
 
 ### Global movements
+
+```
 #hjkl - move left, down, up, left
 #d    - pagedown
 #u    - pageup
-
+```
 
 # Surfing Keys
 ```
