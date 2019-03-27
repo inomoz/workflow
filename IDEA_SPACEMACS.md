@@ -25,7 +25,7 @@
 
 ## Base
 ```
-#d - Command Runner
+#x - Command Runner
 #f - Presentation mode (quick swithc between windows)
 #+f - Presentation mode for current windows group
 #+c - Clipboard history
@@ -69,15 +69,10 @@ PS - Take Screen Selection
 !+j - Prev track
 ```
 
-## KeyNav (mouse control using keyboard)
-```
-^; - activate KeyNav
-h,j,k,l - activate region
-+h, +j - move region left, right
-; - move cur to center of region
-<space> - move mouse and left click
-<Esc> - cancel move
-```
+### Global movements
+#hjkl - move left, down, up, left
+#d    - pagedown
+#u    - pageup
 
 
 # Surfing Keys
