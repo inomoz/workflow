@@ -1,16 +1,5 @@
 # Inomoz FULL WORKFLOW and ROADMAP
 
->Disclaimer: This cheatsheet is summarized from personal experience and other online tutorials. It should not be considered as an official advice.
-
-In this document used some defenitons:
-```
-+ - <Shift> modifier key
-^ - <Control> modifier key
-! - <Alt> modifier key
-# - <WIN> key
-PS - <PrintScreen> key
-```
-
 # Base path
 - https://www.youtube.com/watch?v=LrhyihlqB-U
 - https://github.com/yvoronoy/awesome-english
