@@ -16,7 +16,7 @@ PS - <PrintScreen> key
 >if you use jumpapp, it can switch between `same windows` or between `other` and `latest` window!
 ```
 #1 - Main web browser (Google Chrome)         #+1 - Messaging (...)
-#2 - Terminal (Alacritty + Emacs + RSS...)   #+3 - Documentation browser (Zeal)
+#2 - Terminal (Alacritty + Emacs + RSS...)    #+3 - Documentation browser (Zeal)
 #3 - IDE (IntellJ)                            #+3 - Game Engine Editor (UEEditor)
 #4 - Documentation browser (Zeal)             #+4 - Image editor (Gimp)
 #5 - PDF/Etc Preview (zathura)                #+5 - Image Preview (nomacs)
