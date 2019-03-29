@@ -29,7 +29,7 @@ PS - <PrintScreen> key
 #\+ - Vector Editor (Inkscape)                #+\+ - 2D Animation (OpenToonz) 
 #[ - System Monitor (KSysGuard)               #+[ - System Settings
 #] - Virtual Machines (Virtualbox)            #+] - Android Emulator (Anbox)
-
+#\ - Photo Management (DigiKam)               #\ - Ebook Management (Calibre)
 ```
 
 ## Base
