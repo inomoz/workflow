@@ -16,15 +16,14 @@ PS - <PrintScreen> key
 >if you use jumpapp, it can switch between `same windows` or between `other` and `latest` window!
 ```
 #1 - Main web browser (Google Chrome)         #+1 - Messaging (...)
-#2 - Terminal (Alacritty + Emacs + RSS...)    #+3 - Documentation browser (Zeal)
-#3 - IDE (IntellJ)                            #+3 - Game Engine Editor (UEEditor)
-#4 - Documentation browser (Zeal)             #+4 - Image editor (Gimp)
+#2 - Terminal (Alacritty + Emacs + RSS...)    #+2 - Documentation browser (Zeal)
+#3 - IDE (IntellJ)                            #+3 - Game Engine (UE, t.MaxFPS 30, w. refl.)
+#4 - Image editor (Gimp)                      #+4 - 3D Software (Blender)
 #5 - PDF/Etc Preview (zathura)                #+5 - Image Preview (nomacs)
 #6 - Audio Player (Cantata)                   #+6 - DAW (Ardour)
-#7 - Media Player (MPV)                       #+6 - 3D Software (Blender)
+#7 - Media Player (MPV)                       #+6 - Video Recording (OBS)
 #8 - Flash Cards (Anki)                       #+8 - Typing Tutor (Klavaro)
-#9 - Video Recording (OBS)                    #+9 - Video Montage (Davinci Resolve)
-#0 - Game Engine (UE, t.MaxFPS 30, w. refl.)  #+0 - Mind Map (freemind)
+#9 - Video Montage (Davinci Resolve)          #+9 - Mind Map (freemind)
 #- - CAD (FreeCAD)                            #+- - EDA (KiCAD)
 #\+ - Vector Editor (Inkscape)                #+\+ - 2D Animation (OpenToonz) 
 #[ - System Monitor (KSysGuard)               #+[ - System Settings
