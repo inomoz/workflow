@@ -21,7 +21,7 @@ PS - <PrintScreen> key
 #4 - Image editor (Gimp)                      #+4 - 3D Software (Blender)
 #5 - PDF/Etc Preview (zathura)                #+5 - Image Preview (nomacs)
 #6 - Audio Player (Cantata)                   #+6 - DAW (Ardour)
-#7 - Media Player (MPV)                       #+6 - Video Recording (OBS)
+#7 - Media Player (MPV)                       #+7 - Video Recording (OBS)
 #8 - Flash Cards (Anki)                       #+8 - Typing Tutor (Klavaro)
 #9 - Video Montage (Davinci Resolve)          #+9 - Mind Map (freemind)
 #- - CAD (FreeCAD)                            #+- - EDA (KiCAD)
