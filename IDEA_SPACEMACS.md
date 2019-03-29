@@ -24,11 +24,12 @@ PS - <PrintScreen> key
 #7 - Media Player (MPV)                       #+7 - Video Recording (OBS)
 #8 - Flash Cards (Anki)                       #+8 - Typing Tutor (Klavaro)
 #9 - Video Montage (Davinci Resolve)          #+9 - Mind Map (freemind)
+#0 - Games Library (Steam)                    #+0 - Alternative Games Library (Lutris)
 #- - CAD (FreeCAD)                            #+- - EDA (KiCAD)
 #\+ - Vector Editor (Inkscape)                #+\+ - 2D Animation (OpenToonz) 
 #[ - System Monitor (KSysGuard)               #+[ - System Settings
 #] - Virtual Machines (Virtualbox)            #+] - Android Emulator (Anbox)
-#s - Games Library (Steam)                    #+s - Alternative Games Library (Lutris)
+
 ```
 
 ## Base
