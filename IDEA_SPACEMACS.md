@@ -7,6 +7,7 @@ In this document used some defenitons:
 ! - <Alt> modifier key
 # - <WIN> key
 PS - <PrintScreen> key
+{+}, {^}, {!}, {#} - mark modifiers keys
 ```
 
 # OS [Linux based - KDE]
@@ -26,7 +27,7 @@ PS - <PrintScreen> key
 #9 - Video Montage (Davinci Resolve)          #+9 - Mind Map (freemind)
 #0 - Games Library (Steam)                    #+0 - Alternative Games Library (Lutris)
 #- - CAD (FreeCAD)                            #+- - EDA (KiCAD)
-#\+ - Vector Editor (Inkscape)                #+\+ - 2D Animation (OpenToonz) 
+#{+} - Vector Editor (Inkscape)               #+= - 2D Animation (OpenToonz) 
 #[ - System Monitor (KSysGuard)               #+[ - System Settings
 #] - Virtual Machines (Virtualbox)            #+] - Android Emulator (Anbox)
 #\ - Photo Management (DigiKam)               #\ - Ebook Management (Calibre)
