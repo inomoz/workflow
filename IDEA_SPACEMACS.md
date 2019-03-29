@@ -15,10 +15,10 @@ PS - <PrintScreen> key
 >I use jumpapp and KDE custom shortcuts bindings for this functional. https://github.com/mkropat/jumpapp
 >if you use jumpapp, it can switch between `same windows` or between `other` and `latest` window!
 ```
-#1 - Main web browser (Google Chrome)         #+1 - RSS reader (Akregator)
-#2 - Code editor++ (Emacs + Evil)             #+2 - Image editor (Gimp)
-#3 - Terminal emulator (Alacritty)            #+3 - Documentation browser (Zeal)
-#4 - IDE (IntellJ)                            #+4 - Messaging (...)
+#1 - Main web browser (Google Chrome)         #+1 - Messaging (...)
+#2 - Terminal emulator (Alacritty)            #+3 - Documentation browser (Zeal)
+#3 - IDE (IntellJ)                            #+3 - Game Engine Editor (UEEditor)
+#4 - Documentation browser (Zeal)             #+4 - Image editor (Gimp)
 #5 - PDF/Etc Preview (zathura)                #+5 - Image Preview (nomacs)
 #6 - Audio Player (Cantata)                   #+6 - DAW (Ardour)
 #7 - Media Player (MPV)                       #+6 - 3D Software (Blender)
@@ -30,7 +30,6 @@ PS - <PrintScreen> key
 #[ - System Monitor (KSysGuard)               #+[ - System Settings
 #] - Virtual Machines (Virtualbox)            #+] - Android Emulator (Anbox)
 #s - Games Library (Steam)                    #+s - Alternative Games Library (Lutris)
-#a - Image viewer (Feh)                       #+a - ScreenShoot Tool (Spectacle)
 ```
 
 ## Base
