@@ -43,8 +43,7 @@ PS - Take Screen Selection                    #Up, #Down, #Left, #Right - move w
 #+g - Play/Pause   #^g Stop   #g osd          !+g - Play/Pause in browser
 #+j - Next track                              !+j - Next track 
 #+k - Prev track                              !+k - Prev track
-#+l - Vol. up (player only) ->
-#+h - Vol. down (player only) <-
+#+l - Vol. up (player only) ->                #+h - Vol. down (player only) <-
 
 # Surfing Keys
 <Alt-s> Toggle SurfingKeys on cit                    go    Open a URL in current tab
