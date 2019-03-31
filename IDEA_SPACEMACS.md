@@ -45,10 +45,8 @@ PS - Take Screen Selection                    #Up, #Down, #Left, #Right - move w
 #+k - Prev track                              !+k - Prev track
 #+l - Vol. up (player only) ->
 #+h - Vol. down (player only) <-
-```
 
 # Surfing Keys
-```
 <Alt-s> Toggle SurfingKeys on cit                    go    Open a URL in current tab
 sql      Show last action                            t     Open a URL
 gg       Scroll to the top of the page               b     Open a bookmark (use shift to open in new tab)
