@@ -159,14 +159,6 @@ https://github.com/bennadel/git-cheat-sheet
 # My opensource pet projects
 [Pet projects](PROJECTS.md)
 
-
-
-# Base Setup (need merge)
-https://github.com/chriskempson/base16#template-repositories - color schemes (current Google-Dark)
-https://github.com/inomoz/dotfiles_old
-https://github.com/inomoz/draft_dotfiles/
-
-
 # Minimal GTD
 https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html
 Fast activate/deactivate org-mode by hotkey ^<space>
