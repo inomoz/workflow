@@ -12,3 +12,7 @@ sudo cat /sys/module/nvidia_drm/parameters/modeset
 
 KDE cursor bug workaround
 KDE System Settings -> Workspace Appearance -> Cursor Theme: Switch from resolution dependent to 24
+
+KDE effects disable (some to fix bugs in rendering)
+Desktop Effects
+disable Background Contrast, Blur, Translucency
