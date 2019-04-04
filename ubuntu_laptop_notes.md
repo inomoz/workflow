@@ -6,6 +6,7 @@ Enabled PRIME Sync
 /etc/modprobe.d/nvidia-drm-nomodeset.conf
 options nvidia-drm modeset=1
 ```
+- kdeconnect
 
 test 
 sudo cat /sys/module/nvidia_drm/parameters/modeset
@@ -19,3 +20,62 @@ disable Background Contrast, Blur, Translucency
 
 SDDM fix HIGHDPI
 https://wiki.archlinux.org/index.php/SDDM#DPI_settings (seems not working?)
+
+# Disable AKONADI
+https://userbase.kde.org/Akonadi/ru
+
+# Some configs from ~/.config
+alacritty/
+ardour5/
+autostart/
+autostart-scripts/
+borg/
+calibre/
+cantata/
+compiz-1/
+cutechess/
+FreeCAD/
+GIMP/
+htop/
+inkscape/
+kcalcrc
+kcmdisplayrc - here highdpi?
+kcminputrc
+kcmsambarc
+kdeglobals 
+kglobalshortcutsrc
+khotkeysrc
+kicad/
+klavaro/
+krunnerrc
+kscreenlockerrc
+ktimezonedrc
+kxkbrc
+lutris/
+mimeapps.list - need customize
+mpv/
+nomacs/
+obs-studio/
+offlineimap/
+OpenToonz
+qBittorrent/
+ranger
+retroarch
+rsibreakrc
+rsibreak.notifyrc
+SiriKali/
+spectaclerc
+systemd/
+twitchy3/
+unity3d/
+user-dirs.dirs
+user-dirs.locale
+VirtualBox/
+wireshark/
+zathura/
+Zeal/ - docsets here ~/.local/share/Zeal/Zeal/docsets
+
+
+
+
+
