@@ -119,7 +119,6 @@ Zeal/ - docsets here ~/.local/share/Zeal/Zeal/docsets
 - docker-ce
 - dropbox
 - emacs-snapshot
-- emacs-snapshot-common
 - ffmpeg
 - freecad
 - fuse
@@ -218,6 +217,22 @@ Zeal/ - docsets here ~/.local/share/Zeal/Zeal/docsets
 - rtv
 - tig
 - hstr
+
+- davinci resolve
+- unity3d
+- opentoonz
+- cutechess
+- figma-linux
+- firefox
+- freemind
+- jetbrains-idea
+- kdeconnect
+- klavaro
+- remmina
+- qdirstat
+- stellarium
+- sublime merge
+- usb-creator
 
 npm:
 doctoc
