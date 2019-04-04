@@ -189,14 +189,9 @@ Zeal/ - docsets here ~/.local/share/Zeal/Zeal/docsets
 - xdotool
 - xsel
 - youtube-dl
-- zathura
-- zathura-cb
-- zathura-djvu
-- zathura-pdf-poppler
-- zathura-ps
+- zathura + zathura-cb + zathura-djvu + zathura-ps + https://askubuntu.com/a/841167 (mupdf instead poppler)
 - zeal
 - zip
-
 - xcape
 - surfraw
 - parallel
@@ -217,7 +212,6 @@ Zeal/ - docsets here ~/.local/share/Zeal/Zeal/docsets
 - rtv
 - tig
 - hstr
-
 - davinci resolve
 - unity3d
 - opentoonz
@@ -229,7 +223,6 @@ Zeal/ - docsets here ~/.local/share/Zeal/Zeal/docsets
 - kdeconnect
 - klavaro
 - remmina
-- qdirstat
 - stellarium
 - sublime merge
 - usb-creator
@@ -242,7 +235,6 @@ pip:
 locust
 currencyconverter
 rainbowstream
-
 
 - https://github.com/creationix/nvm#installation-and-update
 - https://github.com/pyenv/pyenv#installation
