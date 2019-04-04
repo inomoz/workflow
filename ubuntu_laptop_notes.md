@@ -100,101 +100,146 @@ Zeal/ - docsets here ~/.local/share/Zeal/Zeal/docsets
 .xprofile
 
 # Packages
-alacritty
-anbox
-anki
-ardour
-aria2
-bash-completion
-blender
-borgbackup
-build-essential
-calibre
-cantata
-cargo
-chromium-browser
-com.github.babluboy.bookworm
-digikam
-discord
-docker-ce
-dropbox
-emacs-snapshot
-emacs-snapshot-common
-ffmpeg
-freecad
-fuse
-gcc
-gimp
-git
-golang-1.10-go
-goldendict
-googler
-gparted
-gpg-agent
-handbrake
-htop
-imagemagick
-inkscape-trunk
-jq
-jumpapp
-keepassxc
-kicad
-lm-sensors
-lutris
-maildir-utils
-mopidy
-mpv
-msmtp
-mu4e
-mupdf
-nodejs
-nomacs
-ntfs-3g
-numix-icon-theme
-obs-studio
-offlineimap
-okular
-openjdk
-openssh-client
-openssl
-openvpn
-opera-stable
-p7zip
-papirus-icon-theme
-ppa-purge
-python
-qbittorrent
-ranger
-retroarch
-rsibreak
-scrot
-sirikali
-smartgit
-sqlite3
-sshfs
-steam
-stockfish
-sublime-merge
-suckless-tools
-synergy
-thefuck
-tmux
-trash-cli
-unrar
-unzip
-virtualbox-6.0
-w3m
-wget
-wine
-wireshark
-wmctrl
-xdotool
-xsel
-youtube-dl
-zathura
-zathura-cb
-zathura-djvu
-zathura-pdf-poppler
-zathura-ps
-zeal
-zip
+- alacritty
+- anbox
+- anki
+- ardour
+- aria2
+- bash-completion
+- blender
+- borgbackup
+- build-essential
+- calibre
+- cantata
+- cargo
+- chromium-browser
+- com.github.babluboy.bookworm
+- digikam
+- discord
+- docker-ce
+- dropbox
+- emacs-snapshot
+- emacs-snapshot-common
+- ffmpeg
+- freecad
+- fuse
+- gcc
+- gimp
+- git
+- golang-go
+- goldendict
+- googler
+- gparted
+- gpg-agent
+- handbrake
+- htop
+- imagemagick
+- inkscape-trunk
+- jq
+- jumpapp
+- keepassxc
+- kicad
+- lm-sensors
+- lutris
+- maildir-utils
+- maim
+- mopidy
+- mpv
+- msmtp
+- mu4e
+- mupdf
+- nomacs
+- ntfs-3g
+- numix-icon-theme
+- obs-studio
+- offlineimap
+- okular
+- openjdk
+- openssh-client
+- openssl
+- openvpn
+- opera-stable
+- p7zip-full
+- papirus-icon-theme
+- ppa-purge
+- qbittorrent
+- ranger
+- retroarch
+- rsibreak
+- scrot
+- sirikali
+- smartgit
+- sqlite3
+- sshfs
+- steam:i386
+- stockfish
+- sublime-merge
+- suckless-tools
+- synergy
+- thefuck
+- tmux
+- trash-cli
+- unrar
+- unzip
+- virtualbox-6.0
+- w3m
+- wget
+- wine
+- wireshark
+- wmctrl
+- xdotool
+- xsel
+- youtube-dl
+- zathura
+- zathura-cb
+- zathura-djvu
+- zathura-pdf-poppler
+- zathura-ps
+- zeal
+- zip
+
+- xcape
+- surfraw
+- parallel
+- git-extras
+- rclone
+- ncdu
+- howdoi
+- yank
+- tldr-py
+- bcal
+- httpie
+- mps-youtube
+- gotop
+- lftp
+- ripgrep
+- liquidprompt
+- bats
+- rtv
+- tig
+- hstr
+
+npm:
+doctoc
+caniuse-cmd
+
+pip:
+locust
+currencyconverter
+rainbowstream
+
+
+- https://github.com/creationix/nvm#installation-and-update
+- https://github.com/pyenv/pyenv#installation
+- https://github.com/domschrei/krunner-symbols
+- https://github.com/sharkdp/bat#installation
+- https://github.com/yudai/gotty#installation
+- https://github.com/Russell91/sshrc#installation
+- https://github.com/github/hub#installation
+- https://github.com/BasioMeusPuga/twitchy
+- https://github.com/holman/spark#install
+- https://github.com/junegunn/fzf#installation
+
+notes:
+https://mike.place/2017/fzf-fd/
+https://medium.com/@sidneyliebrand/how-fzf-and-ripgrep-improved-my-workflow-61c7ca212861
