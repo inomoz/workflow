@@ -63,7 +63,6 @@ ranger
 retroarch
 rsibreakrc
 rsibreak.notifyrc
-SiriKali/
 spectaclerc
 systemd/
 twitchy3/
@@ -76,6 +75,27 @@ zathura/
 Zeal/ - docsets here ~/.local/share/Zeal/Zeal/docsets
 
 
-
-
+# config in ~/
+.anaconda/
+.bash_logout 
+.bashrc
+.doom.d/ - doomed emacs config...
+.emacs.d/ - emacs config + doom modules
+.FreeCAD/
+.freemind/
+.fusion/
+.gnupg/
+.goldendict/
+.ideavimrc
+.inputrc
+.IntelliJIdea*
+.lmmsrc.xml
+.mailrc
+.gfc/ - autocomplete?
+.steam/
+.tmux.conf - need move to ~/.config
+.wine/
+.Xresources
+.xinputrc
+.xprofile
 
