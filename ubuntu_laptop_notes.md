@@ -1,30 +1,28 @@
-Installed latest hwe stack
+1. Installed latest hwe stack
 https://wiki.ubuntu.com/Kernel/LTSEnablementStack
 
-Enabled PRIME Sync
+2. Enabled PRIME Sync (fix tearing), for laptop with nvidia driver and optimus
 ```
-/etc/modprobe.d/nvidia-drm-nomodeset.conf
+sudo vi /etc/modprobe.d/nvidia-drm-nomodeset.conf
 options nvidia-drm modeset=1
+reboot
+# login into system
+sudo cat /sys/module/nvidia_drm/parameters/modeset # Y - means enabled and working
 ```
-- kdeconnect
-
-test 
-sudo cat /sys/module/nvidia_drm/parameters/modeset
-
-KDE cursor bug workaround
+3. KDE cursor bug workaround
 KDE System Settings -> Workspace Appearance -> Cursor Theme: Switch from resolution dependent to 24
 
-KDE effects disable (some to fix bugs in rendering)
+4. KDE effects disable (some to fix bugs in rendering)
 Desktop Effects
 disable Background Contrast, Blur, Translucency
 
-SDDM fix HIGHDPI
-https://wiki.archlinux.org/index.php/SDDM#DPI_settings (seems not working?)
+5. SDDM fix HIGHDPI (seems not working?)
+https://wiki.archlinux.org/index.php/SDDM#DPI_settings 
 
-# Disable AKONADI
-https://userbase.kde.org/Akonadi/ru
+6. Disable AKONADI
+https://userbase.kde.org/Akonadi/ru (dont use time plasmoid and some kde apps)
 
-# Some configs from ~/.config
+7. Copy some configs to ~/.config/
 alacritty/
 ardour5/
 autostart/
@@ -74,8 +72,7 @@ wireshark/
 zathura/
 Zeal/ - docsets here ~/.local/share/Zeal/Zeal/docsets
 
-
-# config in ~/
+8. Copy some configs to ~/
 .anaconda/
 .bash_logout 
 .bashrc
@@ -99,7 +96,7 @@ Zeal/ - docsets here ~/.local/share/Zeal/Zeal/docsets
 .xinputrc
 .xprofile
 
-# Packages
+9. Install Packages (TODO: more info how install)
 - alacritty
 - anbox
 - anki
@@ -225,17 +222,18 @@ Zeal/ - docsets here ~/.local/share/Zeal/Zeal/docsets
 - remmina
 - stellarium
 - sublime merge
-- usb-creator
+- usb-creator  
 
-npm:
-doctoc
-caniuse-cmd
+npm packages:
+- doctoc
+- caniuse-cmd
 
-pip:
-locust
-currencyconverter
-rainbowstream
+pip packages:
+- locust
+- currencyconverter
+- rainbowstream
 
+manual installatin
 - https://github.com/creationix/nvm#installation-and-update
 - https://github.com/pyenv/pyenv#installation
 - https://github.com/domschrei/krunner-symbols
@@ -248,5 +246,5 @@ rainbowstream
 - https://github.com/junegunn/fzf#installation
 
 notes:
-https://mike.place/2017/fzf-fd/
-https://medium.com/@sidneyliebrand/how-fzf-and-ripgrep-improved-my-workflow-61c7ca212861
+- https://mike.place/2017/fzf-fd/
+- https://medium.com/@sidneyliebrand/how-fzf-and-ripgrep-improved-my-workflow-61c7ca212861
