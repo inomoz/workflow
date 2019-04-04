@@ -248,3 +248,41 @@ manual installatin
 notes:
 - https://mike.place/2017/fzf-fd/
 - https://medium.com/@sidneyliebrand/how-fzf-and-ripgrep-improved-my-workflow-61c7ca212861
+
+# Browser setup
+uBlock
+https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=ru
+Edit Office documents (offline)
+https://chrome.google.com/webstore/detail/office-editing-for-docs-s/gbkeegbaiigmenfmjfclcdgdpimamgkj?hl=ru
+Google docs offline
+https://chrome.google.com/webstore/detail/google-docs-offline/ghbmnnjooekpmoecnnnilnnbdlolhkhi?hl=ru
+h264ify - YouTube stream H.264 
+https://chrome.google.com/webstore/detail/h264ify/aleakchihdccplidncghkekgioiakgal?hl=ru
+HTML/CSS/JavaScript editing and JavaScript debugging using JetBrains IDEs.
+https://chrome.google.com/webstore/detail/jetbrains-ide-support/hmhgeddbohgjknpmjagkdomcpobmllji?hl=ru
+Allows a user to provide the URL of the page that loads in a new tab.
+https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna?hl=ru
+Watch video using Picture-in-Picture
+https://chrome.google.com/webstore/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopbecg?hl=ru
+PixelParallel by htmlBurger - Pixel perfect HTML vs Design tool for developers
+https://chrome.google.com/webstore/detail/pixelparallel-by-htmlburg/iffnoibnepbcloaaagchjonfplimpkob?hl=ru
+Global hotkeys for online music players
+https://chrome.google.com/webstore/detail/streamkeys/ekpipjofdicppbepocohdlgenahaneen?hl=ru
+Rich shortcuts to click links/switch tabs/scroll pages or capture full page, use Chrome like vim for productivity.
+https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc?hl=ru
+todo configure `surfingkeys.js`
+
+Find path to copy data - `chrome://version/`
+Check media internals - `chrome://media-internals/`
+Clear DNS cache - `chrome://net-internals/#dns`
+Flags - `chrome://flags/`
+
+Optionally enable/disable flags:
+zero-copy - works with native-gpu-memory-buffers
+tcp-fast-open - linux only
+```
+chromium-browser --ignore-gpu-blacklist --enable-experimental-canvas-features --enable-accelerated-2d-canvas --canvas-msaa-sample-count=2 --force-display-list-2d-canvas --force-gpu-rasterization --enable-fast-unload --enable-accelerated-vpx-decode=3 --enable-tcp-fastopen --enable-checker-imaging --enable-zero-copy --ui-enable-zero-copy --enable-native-gpu-memory-buffers --enable-webgl-image-chromium --enable-accelerated-video --enable-gpu-rasterization
+```
+
+not recommended for me
+` --javascript-harmony   --v8-cache-options=code --v8-cache-strategies-for-cache-storage=aggressive`
