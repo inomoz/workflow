@@ -142,7 +142,6 @@ kicad
 lm-sensors
 lutris
 maildir-utils
-maim
 mopidy
 mpv
 msmtp
