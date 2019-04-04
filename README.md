@@ -149,8 +149,8 @@
 - [ ] SICP lectures
 - [ ] https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf
 
-## Utilites
-fd, tmux, p7zip-full, xcape, pyenv, fzf, hstr, qfc (file complete...), liquidprompt, googler + surfraw, trash-cli, parallel, spark, sshfs, sshrc, thefuck, tldr, emoj, bcal, git-extras, git-open, hub, aria2, httpie, mpv, youtube-dl, jq, rtv, rainbowstream, freegeoip, caniuse-cmd, maim, yank, currency, mapscii, howdoi, doctoc, grc (fish specific), gotty (share terminal), asciicast2gif, locust, mutt, offlineimap, mps-youtube, twitchy, tig, links, wget, rclone, irssi, gotop, ncdu, ranger, bat, lftp, mopidy, ripgrep (aka rg)
+## Services
+freegeoip.io
 
 ## Specific
 https://api.github.com/licenses + jq
