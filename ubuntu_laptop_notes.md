@@ -217,7 +217,6 @@ Zeal/ - docsets here ~/.local/share/Zeal/Zeal/docsets
 - firefox
 - freemind
 - jetbrains-idea
-- kdeconnect
 - klavaro
 - remmina
 - stellarium
