@@ -285,3 +285,31 @@ chromium-browser --ignore-gpu-blacklist --enable-experimental-canvas-features --
 
 not recommended for me
 ` --javascript-harmony   --v8-cache-options=code --v8-cache-strategies-for-cache-storage=aggressive`
+
+# IDE Setup
+todo make script to download...
+`
+wget -qO-  https://plugins.jetbrains.com/files/$(curl https://plugins.jetbrains.com/api/plugins/4415/updates | jq -r '.[0].file') | bsdtar -xvf- -C ~/.Idea.../config/plugins
+`
+```
+https://plugins.jetbrains.com/plugin/8575-nyan-progress-bar
+https://plugins.jetbrains.com/plugin/4230-bashsupport
+https://plugins.jetbrains.com/plugin/6098-nodejs
+https://plugins.jetbrains.com/plugin/9442-vue-js
+https://plugins.jetbrains.com/plugin/6610-php
+https://plugins.jetbrains.com/plugin/631-python
+https://plugins.jetbrains.com/plugin/8578-postcss-support
+https://plugins.jetbrains.com/plugin/9333-makefile-support
+https://plugins.jetbrains.com/plugin/10037-csv-plugin
+https://plugins.jetbrains.com/plugin/9525--env-files-support
+https://plugins.jetbrains.com/plugin/7495--ignore
+https://plugins.jetbrains.com/plugin/7294-editorconfig
+https://plugins.jetbrains.com/plugin/2162-string-manipulation
+https://plugins.jetbrains.com/plugin/7792-yaml-ansible-support
+https://plugins.jetbrains.com/plugin/7086-acejump
+https://plugins.jetbrains.com/plugin/2917-regexptester
+https://plugins.jetbrains.com/plugin/164-ideavim
+https://plugins.jetbrains.com/plugin/8554-ide-features-trainer
+https://plugins.jetbrains.com/plugin/7007-liveedit
+https://plugins.jetbrains.com/plugin/10080-rainbow-brackets
+```
