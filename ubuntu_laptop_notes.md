@@ -317,3 +317,223 @@ https://plugins.jetbrains.com/plugin/10080-rainbow-brackets
 
 # OS setup
 ~/.config/kxkbrc
+
+
+
+
+
+
+
+# Draft
+#!/bin/bash
+set -o pipefail
+set -s
+
+#####
+# This script will take a fresh KDE Neon install and make it suitable for getting stuff done.
+# It may not work against another Ubuntu Installation type.
+# Run it with: bash <(wget -qO- https://git.io/vSe77)
+#####
+
+trap exit SIGINT SIGTERM
+
+##### remove sudo reauthentication timeout
+sudo sed -i.bak -e '$a\' -e 'Defaults timestamp_timeout=-1' -e '/Defaults timestamp_timeout=.*/d' /etc/sudoers
+
+##### set better ssh defaults
+sudo sed -i.bak -e '$a\' -e 'StrictHostKeyChecking=no' -e '/StrictHostKeyChecking=.*/d' /etc/ssh/ssh_config
+sudo sed -i.bak -e '$a\' -e 'UserKnownHostsFile=\/dev\/null' -e '/UserKnownHostsFile=.*/d' /etc/ssh/ssh_config
+sudo sed -i.bak -e '$a\' -e 'GlobalKnownHostsFile=\/dev\/null' -e '/GlobalKnownHostsFile=.*/d' /etc/ssh/ssh_config
+sudo sed -i.bak -e '$a\' -e 'Compression=yes' -e '/Compression=.*/d' /etc/ssh/ssh_config
+sudo sed -i.bak -e '$a\' -e 'CompressionLevel=1' -e '/CompressionLevel=.*/d' /etc/ssh/ssh_config
+
+##### add ppa support
+sudo apt update
+sudo apt -y install \
+    apt-transport-https \
+    software-properties-common \
+
+# add base repositories
+sudo tee /etc/apt/sources.list << EOF
+deb mirror://mirrors.ubuntu.com/mirrors.txt xenial main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt xenial-updates main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt xenial-backports main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt xenial-security main restricted universe multiverse
+deb http://archive.canonical.com/ubuntu/ xenial partner
+EOF
+
+##### add extra repos
+sudo add-apt-repository -y ppa:libreoffice/ppa # latest version
+sudo add-apt-repository -y ppa:webupd8team/sublime-text-3 # text editor
+sudo add-apt-repository -y ppa:nextcloud-devs/client # nextcloud client
+sudo add-apt-repository -y ppa:ubuntu-mozilla-security/ppa # latest firefox
+sudo add-apt-repository -y ppa:canonical-chromium-builds/stage # latest chromium
+sudo add-apt-repository -y ppa:paulo-miguel-dias/pkppa # latest stable mesa graphics
+sudo add-apt-repository -y ppa:webupd8team/java # oracle java
+#sudo add-apt-repository -y ppa:troxor/autokey # latest version of text expander
+
+# google chrome
+sudo tee /etc/apt/sources.list.d/google-chrome.list <<< "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main"
+wget -qO- https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+# spotify
+sudo tee /etc/apt/sources.list.d/spotify.list <<< "deb http://repository.spotify.com testing non-free"
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0DF731E45CE24F27EEEB1450EFDC8610341D9410
+# misc apps and games
+sudo tee /etc/apt/sources.list.d/getdeb.list <<< "deb http://mirrors.dotsrc.org/getdeb/ubuntu xenial-getdeb apps games"
+wget -qO- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+# zulu java
+#sudo tee /etc/apt/sources.list.d/zulu.list <<< "deb http://repos.azulsystems.com/ubuntu stable main"
+#sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0x219BD9C9
+# wine
+sudo apt-add-repository -y https://dl.winehq.org/wine-builds/ubuntu/
+wget -qO- https://dl.winehq.org/wine-builds/Release.key | sudo apt-key add -
+# signal
+wget -qO- https://updates.signal.org/desktop/apt/keys.asc | sudo apt-key add -
+sudo tee /etc/apt/sources.list.d/signal-xenial.list <<< "deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main"
+
+# automated installation
+#sudo debconf-set-selections <<< 'oracle-java8-installer shared/accepted-oracle-licence-v1-1 boolean true'
+sudo debconf-set-selections <<< 'oracle-java9-installer shared/accepted-oracle-license-v1-1 select true'
+sudo debconf-set-selections <<< 'ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true'
+
+##### upgrade system
+sudo apt update
+sudo apt -y dist-upgrade
+
+##### install useful apps
+sudo apt install \
+    aptitude \
+    aria2 \
+    atop \
+    audacity \
+    autossh \
+    build-essential \
+    chromium-browser \
+    chromium-codecs-ffmpeg-extra \
+    davfs2 \
+    digikam \
+    dos2unix \
+    exfat-utils \
+    ffmpeg \
+    flashplugin-installer \
+    flatpak \
+    git-core \
+    gir1.2-gnomekeyring-1.0 \
+    gvfs \
+    gvfs-bin \
+    google-chrome-stable \
+    hunspell-en-us \
+    htop \
+    iotop \
+    kcalc \
+    kgpg \
+    libjpeg62:i386 \
+    libxtst6:i386 \
+    libgck-1-0 \
+    libgcr-3-common \
+    libgcr-base-3-1 \
+    libgnome-keyring-common \
+    libgnome-keyring0 \
+    lsb \
+    lxc2 \
+    mtr \
+    mumble \
+    network-manager-openvpn \
+    network-manager-vpnc \
+    nextcloud-client \
+    nload \
+    oracle-java9-installer \
+    oracle-java9-set-default \
+    p7zip-rar \
+    pavucontrol \
+    partitionmanager \
+    pidgin-extprefs \
+    pidgin-libnotify \
+    pidgin-plugin-pack \
+    pinta \
+    playonlinux \
+    powertop \
+    pv \
+    pycharm \
+    pylint \
+    pylint3 \
+    python3-hunspell \
+    qbittorrent \
+    qemu-kvm \
+    remmina \
+    remmina-plugin-{nx,rdp,vnc} \
+    shellcheck \
+    signal-desktop \
+    spotify-client \
+    sshfs \
+    sshpass \
+    steam \
+    sublime-text-installer \
+    tlp \
+    tlp-rdw \
+    ubuntu-virt-mgmt \
+    ubuntu-virt-server \
+    udftools \
+    umbrello \
+    unrar \
+    spectacle \
+    vlc \
+    virt-manager \
+    virt-goodies \
+    virt-top \
+    winehq-stable \
+    zfsutils-linux \
+    $(# detect platform and install kernel+modules
+    if systemd-detect-virt --vm | grep -i vmware >/dev/null ; then
+        echo linux-{cloud-tools,headers,image,tools}-virtual-hwe-16.04-edge open-vm-tools-desktop
+    elif systemd-detect-virt --vm | grep -i oracle >/dev/null ; then
+        echo linux-{cloud-tools,headers,image,tools}-virtual-hwe-16.04-edge virtualbox-guest-{x11,utils,dkms}
+    elif systemd-detect-virt --vm | grep -iP 'kvm|qemu' >/dev/null ; then
+        echo linux-{cloud-tools,headers,image,tools}-virtual-hwe-16.04-edge qemu-guest-agent
+    elif systemd-detect-virt --vm --quiet ; then
+        echo linux-{cloud-tools,headers,image,tools}-virtual-hwe-16.04-edge
+    elif grep -i intel /proc/cpuinfo >/dev/null ; then
+        echo linux-{cloud-tools,headers,image,tools}-generic-hwe-16.04-edge intel-microcode
+    elif grep -i amd /proc/cpuinfo >/dev/null ; then
+        echo linux-{cloud-tools,headers,image,tools}-generic-hwe-16.04-edge amd64-microcode
+    else 
+        echo linux-{cloud-tools,headers,image,tools}-generic-hwe-16.04-edge
+    fi)
+
+#sudo apt-get -fyo Dpkg::Options::="--force-overwrite" install
+sudo apt dist-upgrade
+
+##### add some packages that have no readily available repositories
+sudo mkdir -vp /tmp/extra-debs
+cd /tmp/extra-debs
+sudo wget "https://go.microsoft.com/fwlink/?LinkID=760868" -O vs-code-amd64.deb
+sudo wget -c \
+https://go.skype.com/skypeforlinux-64.deb \
+http://dbeaver.jkiss.org/files/dbeaver-ce_latest_amd64.deb \
+https://downloads.slack-edge.com/linux_releases/slack-desktop-2.8.2-amd64.deb \
+https://github.com/magkopian/keepassxc-debian/releases/download/2.2.2-1/keepassxc_2.2.2-1_amd64_16.04_xenial.deb \
+# install them and fix their broken dependencies
+sudo dpkg -i *.deb
+sudo rm -v *.deb
+#sudo apt-get -f install
+
+sudo apt -y autoremove
+sudo apt -y autoclean
+sudo apt -y clean
+
+##### fix umbrello shortcut
+sudo ln -sv /usr/bin/umbrello5 /usr/bin/umbrello || true
+
+mkdir -vp ~/.local/share/applications
+
+# add the official adobe flash plugin for firefox
+# sudo wget https://fpdownload.macromedia.com/pub/labs/flashruntimes/flashplayer/linux64/libflashplayer.so -O /usr/lib/mozilla/plugins/flashplugin-alternative.so
+
+# add the official pepper flash player for chromium
+sudo mkdir -vp /usr/lib/adobe-flashplugin
+wget -O- https://fpdownload.macromedia.com/pub/labs/flashruntimes/flashplayer/linux64/flash_player_ppapi_linux.x86_64.tar.gz | sudo tar -xzvC /usr/lib/adobe-flashplugin/ libpepflashplayer.so
+
+# add official android fastboot and adb
+sudo wget https://dl.google.com/android/repository/platform-tools-latest-linux.zip -O /tmp/android-platform-tools.zip
+sudo unzip -q /tmp/android-platform-tools.zip -d /opt/android/
+sudo find /opt/android -mindepth 2 -maxdepth 2 -executable -type f -exec ln -sv {} /usr/bin/ \;
