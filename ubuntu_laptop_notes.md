@@ -313,3 +313,7 @@ https://plugins.jetbrains.com/plugin/8554-ide-features-trainer
 https://plugins.jetbrains.com/plugin/7007-liveedit
 https://plugins.jetbrains.com/plugin/10080-rainbow-brackets
 ```
+
+
+# OS setup
+~/.config/kxkbrc
