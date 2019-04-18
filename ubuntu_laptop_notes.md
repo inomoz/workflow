@@ -537,3 +537,6 @@ wget -O- https://fpdownload.macromedia.com/pub/labs/flashruntimes/flashplayer/li
 sudo wget https://dl.google.com/android/repository/platform-tools-latest-linux.zip -O /tmp/android-platform-tools.zip
 sudo unzip -q /tmp/android-platform-tools.zip -d /opt/android/
 sudo find /opt/android -mindepth 2 -maxdepth 2 -executable -type f -exec ln -sv {} /usr/bin/ \;
+
+# fix suspedn
+https://askubuntu.com/questions/1038375/when-resuming-from-suspend-dekstop-icons-glitch-out-nvidia-problem
