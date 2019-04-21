@@ -173,3 +173,4 @@ Do day/week reviews, check your goals, rest often and enjoy your life =)
   
   - https://kkatsuyuki.github.io/notmuch-conf/
 sudo apt install virtualbox-ext-pack
+https://github.com/balena-io/etcher
