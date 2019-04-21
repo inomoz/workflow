@@ -175,3 +175,4 @@ Do day/week reviews, check your goals, rest often and enjoy your life =)
 sudo apt install virtualbox-ext-pack
 https://github.com/balena-io/etcher # not working as I expected
 sudo adduser $USER vboxusers
+https://support.microsoft.com/en-us/help/4026834/windows-10-defer-feature-updates
