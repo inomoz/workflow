@@ -1,6 +1,9 @@
 1. Installed latest hwe stack
 https://wiki.ubuntu.com/Kernel/LTSEnablementStack
 
+2.1 https://gist.github.com/whizzzkid/37c0d365f1c7aa555885d102ec61c048
+install bumblebee
+or
 2. Enabled PRIME Sync (fix tearing), for laptop with nvidia driver and optimus
 ```
 sudo vi /etc/modprobe.d/nvidia-drm-nomodeset.conf
