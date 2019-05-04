@@ -23,6 +23,7 @@ https://wiki.archlinux.org/index.php/SDDM#DPI_settings
 https://userbase.kde.org/Akonadi/ru (dont use time plasmoid and some kde apps)
 
 7. Copy some configs to ~/.config/
+```
 alacritty/
 ardour5/
 autostart/
@@ -71,8 +72,10 @@ VirtualBox/
 wireshark/
 zathura/
 Zeal/ - docsets here ~/.local/share/Zeal/Zeal/docsets
+```
 
 8. Copy some configs to ~/
+```
 .anaconda/
 .bash_logout 
 .bashrc
@@ -95,8 +98,10 @@ Zeal/ - docsets here ~/.local/share/Zeal/Zeal/docsets
 .Xresources
 .xinputrc
 .xprofile
+```
 
 9. Install Packages 
+```
 set -o pipefail
 set -s
 trap exit SIGINT SIGTERM
@@ -125,25 +130,12 @@ deb mirror://mirrors.ubuntu.com/mirrors.txt xenial-backports main restricted uni
 deb mirror://mirrors.ubuntu.com/mirrors.txt xenial-security main restricted universe multiverse
 deb http://archive.canonical.com/ubuntu/ xenial partner
 
-
-
-trap exit SIGINT SIGTERM
-
-##### set better ssh defaults
-sudo sed -i.bak -e '$a\' -e 'StrictHostKeyChecking=no' -e '/StrictHostKeyChecking=.*/d' /etc/ssh/ssh_config
-sudo sed -i.bak -e '$a\' -e 'UserKnownHostsFile=\/dev\/null' -e '/UserKnownHostsFile=.*/d' /etc/ssh/ssh_config
-sudo sed -i.bak -e '$a\' -e 'GlobalKnownHostsFile=\/dev\/null' -e '/GlobalKnownHostsFile=.*/d' /etc/ssh/ssh_config
-sudo sed -i.bak -e '$a\' -e 'Compression=yes' -e '/Compression=.*/d' /etc/ssh/ssh_config
-sudo sed -i.bak -e '$a\' -e 'CompressionLevel=1' -e '/CompressionLevel=.*/d' /etc/ssh/ssh_config
-
 ##### add extra repos
 sudo add-apt-repository -y ppa:libreoffice/ppa # latest version
 sudo add-apt-repository -y ppa:saiarcot895/chromium-dev # latest chromium
 sudo add-apt-repository -y ppa:paulo-miguel-dias/pkppa # latest stable mesa graphics
 
 # automated installation
-#sudo debconf-set-selections <<< 'oracle-java8-installer shared/accepted-oracle-licence-v1-1 boolean true'
-#sudo debconf-set-selections <<< 'oracle-java9-installer shared/accepted-oracle-license-v1-1 select true'
 sudo debconf-set-selections <<< 'ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true'
 
 ##### upgrade system
