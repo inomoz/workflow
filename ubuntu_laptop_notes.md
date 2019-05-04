@@ -96,132 +96,225 @@ Zeal/ - docsets here ~/.local/share/Zeal/Zeal/docsets
 .xinputrc
 .xprofile
 
-9. Install Packages (TODO: more info how install)
-- alacritty
-- anbox
-- anki
-- ardour
-- aria2
-- bash-completion
-- blender
-- borgbackup
-- build-essential
-- calibre
-- cantata
-- cargo
-- chromium-browser
-- com.github.babluboy.bookworm
-- digikam
-- discord
-- docker-ce
-- dropbox
-- emacs-snapshot
-- ffmpeg
-- freecad
-- fuse
-- gcc
-- gimp
-- git
-- golang-go
-- goldendict
-- googler
-- gparted
-- gpg-agent
-- handbrake
-- htop
-- imagemagick
-- inkscape-trunk
-- jq
-- jumpapp
-- keepassxc
-- kicad
-- lm-sensors
-- lutris
-- maildir-utils
-- maim
-- mopidy
-- mpv
-- msmtp
-- mu4e
-- mupdf
-- nomacs
-- ntfs-3g
-- numix-icon-theme
-- obs-studio
-- offlineimap
-- okular
-- openjdk
-- openssh-client
-- openssl
-- openvpn
-- opera-stable
-- p7zip-full
-- papirus-icon-theme
-- ppa-purge
-- qbittorrent
-- ranger
-- retroarch
-- rsibreak
-- scrot
-- sirikali
-- smartgit
-- sqlite3
-- sshfs
-- steam:i386
-- stockfish
-- sublime-merge
-- suckless-tools
-- synergy
-- thefuck
-- tmux
-- trash-cli
-- unrar
-- unzip
-- virtualbox-6.0
-- w3m
-- wget
-- wine
-- wireshark
-- wmctrl
-- xdotool
-- xsel
-- youtube-dl
-- zathura + zathura-cb + zathura-djvu + zathura-ps + https://askubuntu.com/a/841167 (mupdf instead poppler)
-- zeal
-- zip
-- xcape
-- surfraw
-- parallel
-- git-extras
-- rclone
-- ncdu
-- howdoi
-- yank
-- tldr-py
-- bcal
-- httpie
-- mps-youtube
-- gotop
-- lftp
-- ripgrep
-- liquidprompt
-- bats
-- rtv
-- tig
-- hstr
-- davinci resolve
-- unity3d
-- opentoonz
-- cutechess
-- figma-linux
-- firefox
-- freemind
-- jetbrains-idea
-- klavaro
-- remmina
-- stellarium
-- sublime merge
-- usb-creator  
+9. Install Packages 
+set -o pipefail
+set -s
+trap exit SIGINT SIGTERM
+
+##### remove sudo reauthentication timeout
+sudo sed -i.bak -e '$a\' -e 'Defaults timestamp_timeout=-1' -e '/Defaults timestamp_timeout=.*/d' /etc/sudoers
+
+##### set better ssh defaults
+sudo sed -i.bak -e '$a\' -e 'StrictHostKeyChecking=no' -e '/StrictHostKeyChecking=.*/d' /etc/ssh/ssh_config
+sudo sed -i.bak -e '$a\' -e 'UserKnownHostsFile=\/dev\/null' -e '/UserKnownHostsFile=.*/d' /etc/ssh/ssh_config
+sudo sed -i.bak -e '$a\' -e 'GlobalKnownHostsFile=\/dev\/null' -e '/GlobalKnownHostsFile=.*/d' /etc/ssh/ssh_config
+sudo sed -i.bak -e '$a\' -e 'Compression=yes' -e '/Compression=.*/d' /etc/ssh/ssh_config
+sudo sed -i.bak -e '$a\' -e 'CompressionLevel=1' -e '/CompressionLevel=.*/d' /etc/ssh/ssh_config
+
+##### add ppa support
+sudo apt update
+sudo apt -y install \
+    apt-transport-https \
+    software-properties-common \
+    
+# add base repositories
+sudo tee /etc/apt/sources.list << EOF
+deb mirror://mirrors.ubuntu.com/mirrors.txt xenial main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt xenial-updates main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt xenial-backports main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt xenial-security main restricted universe multiverse
+deb http://archive.canonical.com/ubuntu/ xenial partner
+
+
+
+trap exit SIGINT SIGTERM
+
+##### set better ssh defaults
+sudo sed -i.bak -e '$a\' -e 'StrictHostKeyChecking=no' -e '/StrictHostKeyChecking=.*/d' /etc/ssh/ssh_config
+sudo sed -i.bak -e '$a\' -e 'UserKnownHostsFile=\/dev\/null' -e '/UserKnownHostsFile=.*/d' /etc/ssh/ssh_config
+sudo sed -i.bak -e '$a\' -e 'GlobalKnownHostsFile=\/dev\/null' -e '/GlobalKnownHostsFile=.*/d' /etc/ssh/ssh_config
+sudo sed -i.bak -e '$a\' -e 'Compression=yes' -e '/Compression=.*/d' /etc/ssh/ssh_config
+sudo sed -i.bak -e '$a\' -e 'CompressionLevel=1' -e '/CompressionLevel=.*/d' /etc/ssh/ssh_config
+
+##### add extra repos
+sudo add-apt-repository -y ppa:libreoffice/ppa # latest version
+sudo add-apt-repository -y ppa:saiarcot895/chromium-dev # latest chromium
+sudo add-apt-repository -y ppa:paulo-miguel-dias/pkppa # latest stable mesa graphics
+
+# automated installation
+#sudo debconf-set-selections <<< 'oracle-java8-installer shared/accepted-oracle-licence-v1-1 boolean true'
+#sudo debconf-set-selections <<< 'oracle-java9-installer shared/accepted-oracle-license-v1-1 select true'
+sudo debconf-set-selections <<< 'ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true'
+
+##### upgrade system
+sudo apt update
+sudo apt -y dist-upgrade
+
+##### install useful apps
+sudo apt install \
+    alacritty \
+    anbox \
+    anki \
+    aptitude \
+    ardour \
+    aria2 \
+    atop \
+    autossh \
+    bash-completion \
+    bats \
+    bcal \
+    blender \
+    borgbackup \
+    build-essential \
+    calibre \
+    cantata \
+    cargo \
+    chromium-browser \
+    chromium-codecs-ffmpeg-extra \
+    com.github.babluboy.bookworm \
+    cutechess \
+    davfs2 \
+    digikam \
+    docker-ce \
+    dos2unix \
+    dropbox \
+    emacs-snapshot \
+    exfat-utils \
+    ffmpeg \
+    figma-linux \
+    firefox \
+    freecad \
+    fuse \
+    gcc \
+    gimp \
+    git \
+    git-core \
+    git-extras \
+    golang-go \
+    goldendict \
+    googler \
+    gotop \
+    gparted \
+    gpg-agent \
+    handbrake \
+    howdoi \
+    hstr \
+    htop \
+    httpie \
+    hunspell-en-us \
+    imagemagick \
+    inkscape-trunk \
+    iotop \
+    jq \
+    jumpapp \
+    kcalc \
+    keepassxc \
+    kgpg \
+    kicad \
+    klavaro \
+    lftp \
+    libreoffice \
+    lm-sensors \
+    lutris \
+    maildir-utils \
+    maim \
+    mopidy \
+    mps-youtube \
+    mpv \
+    msmtp \
+    mu4e \
+    ncdu \
+    nomacs \
+    ntfs-3g \
+    numix-icon-theme \
+    obs-studio \
+    offlineimap \
+    okular \
+    openssh-client \
+    openssl \
+    openvpn \
+    p7zip-full \
+    p7zip-rar \
+    papirus-icon-theme \
+    parallel \
+    partitionmanager \
+    pavucontrol \
+    powertop \
+    ppa-purge \
+    pv \
+    python3-hunspell \
+    qbittorrent \
+    ranger \
+    rclone \
+    remmina \
+    remmina-plugin-{nx,rdp,vnc} \
+    ripgrep \
+    rsibreak \
+    rtv \
+    scrot \
+    shellcheck \
+    sirikali \
+    smartgit \
+    spectacle \
+    sqlite3 \
+    sshfs \
+    sshpass \
+    steam \
+    steam:i386 \
+    stellarium \
+    stockfish \
+    suckless-tools \
+    surfraw \
+    synergy \
+    thefuck \
+    tig \
+    tldr-py \
+    tmux \
+    trash-cli \
+    umbrello \
+    virtualbox-6.0 \
+    vlc \
+    w3m \
+    wget \
+    wireshark \
+    wmctrl \
+    xcape \
+    xdotool \
+    xsel \
+    yank \
+    youtube-dl \
+    zathura \
+    zathura-cb \
+    zathura-djvu \
+    zathura-ps \
+    zeal \
+    zfsutils-linux 
+    
+#sudo apt-get -fyo Dpkg::Options::="--force-overwrite" install
+sudo apt dist-upgrade
+
+##### add some packages that have no readily available repositories
+#sudo mkdir -vp /tmp/extra-debs
+#cd /tmp/extra-debs
+#sudo wget "https://go.microsoft.com/fwlink/?LinkID=760868" -O vs-code-amd64.deb
+#sudo wget -c \
+#https://go.skype.com/skypeforlinux-64.deb \
+#http://dbeaver.jkiss.org/files/dbeaver-ce_latest_amd64.deb \
+#https://downloads.slack-edge.com/linux_releases/slack-desktop-2.8.2-amd64.deb \
+#https://github.com/magkopian/keepassxc-debian/releases/download/2.2.2-1/keepassxc_2.2.2-1_amd64_16.04_xenial.deb \
+# install them and fix their broken dependencies
+#sudo dpkg -i *.deb
+#sudo rm -v *.deb
+#sudo apt-get -f install
+
+sudo apt -y autoremove
+sudo apt -y autoclean
+sudo apt -y clean
+
+# add official android fastboot and adb
+sudo wget https://dl.google.com/android/repository/platform-tools-latest-linux.zip -O /tmp/android-platform-tools.zip
+sudo unzip -q /tmp/android-platform-tools.zip -d /opt/android/
+sudo find /opt/android -mindepth 2 -maxdepth 2 -executable -type f -exec ln -sv {} /usr/bin/ \;
 
 npm packages:
 - doctoc
@@ -243,6 +336,11 @@ manual installatin
 - https://github.com/BasioMeusPuga/twitchy
 - https://github.com/holman/spark#install
 - https://github.com/junegunn/fzf#installation
+- unity3d
+- opentoonz movena edition
+- freemind
+- jetbrains-idea
+- davinci resolve
 
 notes:
 - https://mike.place/2017/fzf-fd/
