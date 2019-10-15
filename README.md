@@ -28,16 +28,10 @@
 - [ ] https://www.jetbrains.com/idea/documentation/
 - [ ] https://github.com/alebcay/awesome-shell
 
-# Frontend path + a little backend
-
-## HTML
+# Webdev
 - https://diveintohtml5.info/
-
-## CSS 
 - CSS: The Missing Manual 
 - CSS Secrets: Better Solutions
-
-## JS
 - [ ] https://eloquentjavascript.net/
 - [ ] https://learn.javascript.ru
 - https://learn.javascript.ru/pre-coding
@@ -62,7 +56,9 @@
 - WebGL Programming Guide
 - [ ] https://v1.vuepress.vuejs.org/
 - [ ] https://www.lucasfcosta.com/2019/02/10/terminal-guide-2019.html
-- [ ] https://pbrisbin.com/posts/mutt_gmail_offlineimap/
+
+
+# Awesome lists
 - https://github.com/sindresorhus/awesome
 - https://github.com/BubuAnabelas/awesome-markdown#documentation
 - https://github.com/dypsilon/frontend-dev-bookmarks
@@ -90,9 +86,6 @@
 - https://www.wolframalpha.com/
 - https://jupyterlab.readthedocs.io/en/stable/index.html
 - https://github.com/dreamingechoes/awesome-mental-health
-
-
-
 
 # Other
 
