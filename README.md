@@ -1,14 +1,12 @@
 # Inomoz FULL WORKFLOW and ROADMAP
 
 # Base path
-- https://www.youtube.com/watch?v=LrhyihlqB-U
 - https://github.com/yvoronoy/awesome-english
 - OSSU - [OSSU](OSSU.md)
 - [ ] GIT/GitHub - `https://git-scm.com/book/ru/v2/`
 - [ ] Basic Terminal Usage - `The Unix Programming Environment`, `https://github.com/Idnan/bash-guide`, `https://github.com/jlevy/the-art-of-command-line`, `https://wiki.bash-hackers.org/`, `https://google.github.io/styleguide/shell.xml`, 
 - [ ] Data Structures & Algorithms - `starting from Introduction to Algorithms`
 - [ ] SOLID, KISS, YAGNI - `starting from The Pragmatic Programmer`
-- [ ] Licenses - `https://choosealicense.com/`
 - [ ] Semantic Versoning - `https://github.com/semver/semver/blob/master/semver.md`
 - [ ] SSH - `The Secure Shell: The Definitive Guide`
 - [ ] HTTP/HTTPS and APIs - `starting from RESTful Web Services Cookbook`
@@ -27,25 +25,19 @@
 - [ ] Seven Languages in Seven Weeks
 - [ ] The Mythical Man-Month
 - [ ] Refactoring
-- [ ] http://spacemacs.org/doc/DOCUMENTATION.html
-- [ ] https://orgmode.org/org.pdf
 - [ ] https://www.jetbrains.com/idea/documentation/
 - [ ] https://github.com/alebcay/awesome-shell
 
 # Frontend path + a little backend
 
 ## HTML
-
-- HTML5. The missing manual
 - https://diveintohtml5.info/
 
 ## CSS 
-
 - CSS: The Missing Manual 
 - CSS Secrets: Better Solutions
 
 ## JS
-
 - [ ] https://eloquentjavascript.net/
 - [ ] https://learn.javascript.ru
 - https://learn.javascript.ru/pre-coding
@@ -61,13 +53,7 @@
 - Node.js Design Patterns
 - https://github.com/sorrycc/awesome-javascript
 - https://github.com/micromata/awesome-javascript-learning
-
-## Other
 - [ ] https://github.github.com/gfm/
-
-
-## Specific
-
 - [ ] BEM - https://ru.bem.info/methodology/
 - Bootstrap, Spectre.css, Semantic UI
 - Rollup
@@ -84,7 +70,6 @@
 - https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md
 - https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-ru.md
 - https://github.com/hackerkid/Mind-Expanding-Books
-- https://github.com/terrehbyte/awesome-ue4
 - https://github.com/sindresorhus/awesome-scifi
 - https://github.com/ayr-ton/awesome-geek-podcasts
 - https://github.com/therebelrobot/awesome-workshopper
@@ -118,10 +103,6 @@
 - https://www.youtube.com/user/DarrinLile/videos
 - https://docs.blender.org/manual/en/latest/
 
-## Unreal
-- [ ] https://docs.unrealengine.com/en-us/
-- https://academy.unrealengine.com/
-- https://www.youtube.com/channel/UCLbkGIcYJxxL0tciH9RVebg/playlists
 
 ## GIMP && Inkscape
 - https://www.gimp.org/docs/
@@ -130,11 +111,6 @@
 - https://inkscape.org/learn/tutorials/
 - [ ] https://www.youtube.com/channel/UCEQXp_fcqwPcqrzNtWJ1w9w/playlists
 
-## Resolve
-- [ ] https://www.youtube.com/watch?v=oEuFP7U7tB8&list=PLURZdvzBgI3r3CnaSPrG5JbhCpjn46cMX
-
-## FreeCad
-- https://www.youtube.com/channel/UC_9HwDkwxllq5lFGkYBIH9g
 ## ;-)
 - [ ] You Can Draw in 30 Days
 - [ ] Let Us C
@@ -160,19 +136,12 @@ https://github.com/bennadel/git-cheat-sheet
 [Pet projects](PROJECTS.md)
 
 # Minimal GTD
-https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html
-Fast activate/deactivate org-mode by hotkey ^<space>
-- Plan - MITs for day, week. Major first. Do it at the beginning of each day.
-- Focus - turn off distractions, clear your space, start! incoming tasks/info - collect! Breathe deeply. Re-focus.
-Focus helpers: https://brain.fm/, https://www.youtube.com/watch?v=WPni755-Krg&list=RDcyiEv7khrH0&index=2
+Focus helpers: https://brain.fm/, https://www.youtube.com/watch?v=WPni755-Krg&list=RDcyiEv7khrH0&index=2, https://purrli.com
   Background video, chat, news, sites, etc is NOT your friend, leave some time for this, maybe later?
   Spend your work time with max productivity!
 - Collect - how (emacs + https://news.ycombinator.com/item?id=13829075 for mobile setup) + Sync Tool 
 - Process - at least once a day, 2 minutes - do it, trash it, delegate it, or put into todo/calendar
 Do day/week reviews, check your goals, rest often and enjoy your life =)
-  
-  - https://kkatsuyuki.github.io/notmuch-conf/
-sudo apt install virtualbox-ext-pack
-https://github.com/balena-io/etcher # not working as I expected
-sudo adduser $USER vboxusers
+
+# Window$ R (C)  
 https://support.microsoft.com/en-us/help/4026834/windows-10-defer-feature-updates
