@@ -52,9 +52,8 @@
 - Bootstrap, Spectre.css, Semantic UI
 - Rollup
 - NPM scripts
-- [ ] Vue - Vue JS 2 - The Complete Guide 
+- road to learn react
 - WebGL Programming Guide
-- [ ] https://v1.vuepress.vuejs.org/
 - [ ] https://www.lucasfcosta.com/2019/02/10/terminal-guide-2019.html
 
 
