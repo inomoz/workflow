@@ -1,6 +1,8 @@
 # Inomoz FULL WORKFLOW and ROADMAP
 
 # Base path
+- сканви
+- http://www.feynmanlectures.caltech.edu/
 - https://github.com/yvoronoy/awesome-english
 - OSSU - [OSSU](OSSU.md)
 - [ ] GIT/GitHub - `https://git-scm.com/book/ru/v2/`
