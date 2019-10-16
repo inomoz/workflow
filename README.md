@@ -107,11 +107,9 @@
 
 ## ;-)
 - [ ] You Can Draw in 30 Days
-- [ ] Let Us C
 - [ ] The Art of Electronics 
 - [ ] Arduino Workshop
 - [ ] What Is Mathematics?
-- [ ] Элементарная математика (Сканави)
 - [ ] Modern Engineering Mathematics
 - [ ] ftp://ftp.mccme.ru/users/shen/logic/sets
 - [ ] Make Your Own Neural Network
@@ -130,11 +128,20 @@ https://github.com/bennadel/git-cheat-sheet
 [Pet projects](PROJECTS.md)
 
 # Minimal GTD
-Focus helpers: https://brain.fm/, https://www.youtube.com/watch?v=WPni755-Krg&list=RDcyiEv7khrH0&index=2, https://purrli.com
-  Background video, chat, news, sites, etc is NOT your friend, leave some time for this, maybe later?
-  Spend your work time with max productivity!
-- Collect - how (emacs + https://news.ycombinator.com/item?id=13829075 for mobile setup) + Sync Tool 
-- Process - at least once a day, 2 minutes - do it, trash it, delegate it, or put into todo/calendar
+Focus helpers:
+- https://brain.fm/
+- https://www.youtube.com/watch?v=WPni755-Krg&list=RDcyiEv7khrH0&index=2
+- https://purrli.com
+- https://www.smashingmagazine.com/2016/11/playlists-fuel-coding-design-sessions/
+
+Background video, chat, news, sites, etc is NOT your friend, leave some time for this, maybe later?
+
+Spend your work time with max productivity!
+
+Collect
+
+Process - at least once a day, 2 minutes - do it, trash it, delegate it, or put into todo/calendar
+
 Do day/week reviews, check your goals, rest often and enjoy your life =)
 
 # Window$ R (C)  
