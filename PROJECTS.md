@@ -1,9 +1,9 @@
-# Learning project
-[|] Road to Сканви ч. 1
-[|] The Feynman volume 1
-[|] Git Book 
-[|] Duolingo рубеж 1
-[|] Курс на Си
+# Learning project - Base
+- [ ] Road to Сканви ч. 1
+- [ ] The Feynman volume 1
+- [ ] Git Book 
+- [ ] Duolingo рубеж 1
+- [ ] Курс на Си
 
 ## Day 1
 - Сканави М.И. Элементарная математика
