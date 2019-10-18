@@ -1,33 +1,5 @@
-1. Installed latest hwe stack
-https://wiki.ubuntu.com/Kernel/LTSEnablementStack
-
-2.1 https://gist.github.com/whizzzkid/37c0d365f1c7aa555885d102ec61c048
-install bumblebee
-or
-2. Enabled PRIME Sync (fix tearing), for laptop with nvidia driver and optimus
-```
-sudo vi /etc/modprobe.d/nvidia-drm-nomodeset.conf
-options nvidia-drm modeset=1
-reboot
-# login into system
-sudo cat /sys/module/nvidia_drm/parameters/modeset # Y - means enabled and working
-```
-3. KDE cursor bug workaround
-KDE System Settings -> Workspace Appearance -> Cursor Theme: Switch from resolution dependent to 24
-
-4. KDE effects disable (some to fix bugs in rendering)
-Desktop Effects
-disable Background Contrast, Blur, Translucency
-
-5. SDDM fix HIGHDPI (seems not working?)
-https://wiki.archlinux.org/index.php/SDDM#DPI_settings 
-
-6. Disable AKONADI
-https://userbase.kde.org/Akonadi/ru (dont use time plasmoid and some kde apps)
-
 7. Copy some configs to ~/.config/
 ```
-alacritty/
 ardour5/
 autostart/
 autostart-scripts/
@@ -36,24 +8,12 @@ calibre/
 cantata/
 compiz-1/
 cutechess/
-FreeCAD/
 GIMP/
 htop/
 inkscape/
-kcalcrc
-kcmdisplayrc - here highdpi?
-kcminputrc
-kcmsambarc
-kdeglobals 
-kglobalshortcutsrc
-khotkeysrc
 kicad/
 klavaro/
-krunnerrc
-kscreenlockerrc
-ktimezonedrc
 kxkbrc
-lutris/
 mimeapps.list - need customize
 mpv/
 nomacs/
@@ -67,8 +27,6 @@ rsibreakrc
 rsibreak.notifyrc
 spectaclerc
 systemd/
-twitchy3/
-unity3d/
 user-dirs.dirs
 user-dirs.locale
 VirtualBox/
