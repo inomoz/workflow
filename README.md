@@ -146,3 +146,7 @@ Do day/week reviews, check your goals, rest often and enjoy your life =)
 
 # Window$ R (C)  
 https://support.microsoft.com/en-us/help/4026834/windows-10-defer-feature-updates
+
+
+# Usefull stuff
+https://github.com/alexkaratarakis/gitattributes
