@@ -3,7 +3,7 @@
 # Base path
 ## Level 0
 - [ ] https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U Си
-- [ ] https://www.youtube.com/watch?v=KdZ4HF1SrFs&list=PLRDzFCPr95fK7tr47883DFUbm4GeOjjc0 Алгоритмы на Python 3.
+- [ ] Programming - Principles and Practice Using C++ 
 - [ ] https://www.youtube.com/watch?v=HwagTgacf94&list=PLwCnsQacFoW4XtU9RAtjZr_jJzHD3SdE7 Jupyter Notebook Quickstart
 - [ ] Сканави М.И. Элементарная математика
 - [ ] http://www.feynmanlectures.caltech.edu/
