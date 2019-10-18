@@ -1,10 +1,12 @@
 # Inomoz FULL WORKFLOW and ROADMAP
 
 # Base path
-- сканви
-- http://www.feynmanlectures.caltech.edu/
-- https://github.com/yvoronoy/awesome-english
-- OSSU - [OSSU](OSSU.md)
+## (level 0)
+- [ ] https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U Си
+- [ ] https://www.youtube.com/watch?v=KdZ4HF1SrFs&list=PLRDzFCPr95fK7tr47883DFUbm4GeOjjc0 Алгоритмы на Python 3.
+- [ ] Сканави М.И. Элементарная математика
+- [ ] http://www.feynmanlectures.caltech.edu/
+- [ ] duolingo
 - [ ] GIT/GitHub - `https://git-scm.com/book/ru/v2/`
 - [ ] Basic Terminal Usage - `The Unix Programming Environment`, `https://github.com/Idnan/bash-guide`, `https://github.com/jlevy/the-art-of-command-line`, `https://wiki.bash-hackers.org/`, `https://google.github.io/styleguide/shell.xml`, 
 - [ ] Data Structures & Algorithms - `starting from Introduction to Algorithms`
@@ -14,7 +16,16 @@
 - [ ] HTTP/HTTPS and APIs - `starting from RESTful Web Services Cookbook`
 - [ ] Design Patterns - `starting from Design Patterns: Elements of Reusable Object-Oriented Software`
 - [ ] Character Encodings - `starting from UnicodeStandard-6.0`
+- [ ] https://diveintohtml5.info/
+- [ ] CSS: The Missing Manual 
+- [ ] CSS Secrets: Better Solutions
+- [ ] https://eloquentjavascript.net/
+- [ ] https://learn.javascript.ru
+- [ ] https://learn.javascript.ru/pre-coding
+- [ ] http://exploringjs.com/index.html - here some free books!
 ---
+## (level 1)
+- [ ] OSSU - [OSSU](OSSU.md)
 - [ ] Structure and Interpretation of Computer Programs
 - [ ] Code Complete
 - [ ] Test Driven Development: By Example
@@ -30,14 +41,7 @@
 - [ ] https://www.jetbrains.com/idea/documentation/
 - [ ] https://github.com/alebcay/awesome-shell
 
-# Webdev
-- https://diveintohtml5.info/
-- CSS: The Missing Manual 
-- CSS Secrets: Better Solutions
-- [ ] https://eloquentjavascript.net/
-- [ ] https://learn.javascript.ru
-- https://learn.javascript.ru/pre-coding
-- http://exploringjs.com/index.html - here some free books!
+# Webdev Advanced
 - JavaScript: The Definitive Guide
 - You Don’t Know JS
 - JavaScript: The Good Parts 
@@ -87,6 +91,7 @@
 - https://www.wolframalpha.com/
 - https://jupyterlab.readthedocs.io/en/stable/index.html
 - https://github.com/dreamingechoes/awesome-mental-health
+- https://github.com/yvoronoy/awesome-english
 
 # Other
 
@@ -109,7 +114,7 @@
 - [ ] You Can Draw in 30 Days
 - [ ] The Art of Electronics 
 - [ ] Arduino Workshop
-- [ ] What Is Mathematics?
+- [ ] What Is Mathematics? An Elementary Approach to Ideas and Methods 
 - [ ] Modern Engineering Mathematics
 - [ ] ftp://ftp.mccme.ru/users/shen/logic/sets
 - [ ] Make Your Own Neural Network
