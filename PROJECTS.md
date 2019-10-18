@@ -9,31 +9,37 @@
 - diveintohtml5.info
 - CSS: The Missing Manual
 - https://eloquentjavascript.net/
+- Soft Skills: The software developer's life manual
 
 ## Day 7
 - CSS: The Missing Manual
 - Semantic Versoning - https://github.com/semver/semver/blob/master/semver.md
 - https://eloquentjavascript.net/
+- Soft Skills: The software developer's life manual
 
 ## Day 1
 - https://eloquentjavascript.net/
 - CSS Secrets: Better Solutions
 - You Can Draw in 30 Days
+- Soft Skills: The software developer's life manual
 
 ## Day 2
 - https://eloquentjavascript.net/
 - CSS Secrets: Better Solutions
 - You Can Draw in 30 Days
+- Soft Skills: The software developer's life manual
 
 ## Day 3
 - https://eloquentjavascript.net/
 - CSS Secrets: Better Solutions
 - You Can Draw in 30 Days
+- Soft Skills: The software developer's life manual
 
 ## Day 4
 - https://eloquentjavascript.net/
 - CSS Secrets: Better Solutions
 - You Can Draw in 30 Days
+- Soft Skills: The software developer's life manual
 
 ## Day 5
 - Сканави М.И. Элементарная математика
