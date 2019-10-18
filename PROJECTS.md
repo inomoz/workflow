@@ -3,13 +3,5 @@
 - https://github.com/yandex/tomita-parser
 - https://github.com/matthewmueller/x-ray
 - https://habr.com/ru/post/317732/
-- https://github.com/request/request 
-- https://en.wikipedia.org/w/api.php?action=help&modules=query%2Bextracts 
-- https://github.com/negezor/vk-io
+- https://en.wikipedia.org/w/api.php?action=help&modules=query%2Bextracts
 
-# Skyrim
-built-in feature with papyrus scripts
-xml integration with nodejs server and twitch api
-
-# xherosiege (cool base?)
-https://github.com/Aleqsd/Heroes-of-the-Skills
