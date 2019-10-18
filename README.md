@@ -1,7 +1,7 @@
 # Inomoz FULL WORKFLOW and ROADMAP
 
 # Base path
-## (level 0)
+## Level 0
 - [ ] https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U Си
 - [ ] https://www.youtube.com/watch?v=KdZ4HF1SrFs&list=PLRDzFCPr95fK7tr47883DFUbm4GeOjjc0 Алгоритмы на Python 3.
 - [ ] Сканави М.И. Элементарная математика
@@ -24,7 +24,7 @@
 - [ ] https://learn.javascript.ru/pre-coding
 - [ ] http://exploringjs.com/index.html - here some free books!
 ---
-## (level 1)
+## Level 1
 - [ ] OSSU - [OSSU](OSSU.md)
 - [ ] Structure and Interpretation of Computer Programs
 - [ ] Code Complete
@@ -94,7 +94,6 @@
 - https://github.com/yvoronoy/awesome-english
 
 # Other
-
 ## Blender
 - [ ] https://www.youtube.com/playlist?list=PLjEaoINr3zgHs8uzT3yqe4iHGfkCmMJ0P
 - https://www.youtube.com/channel/UCdioEctcBLd2nw2aQkl8msw
