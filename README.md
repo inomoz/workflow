@@ -2,6 +2,7 @@
 
 # Base path
 ## Level 0
+- [ ] Code: The Hidden Language of Computer Hardware and Software
 - [ ] https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U Си
 - [ ] Programming - Principles and Practice Using C++ 
 - [ ] https://www.youtube.com/watch?v=HwagTgacf94&list=PLwCnsQacFoW4XtU9RAtjZr_jJzHD3SdE7 Jupyter Notebook Quickstart
