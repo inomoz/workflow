@@ -1,4 +1,59 @@
 # Learning project
+Road to Сканви ч. 1
+The Feynman volume 1
+Git Book 
+Duolingo рубеж 1
+Курс на Си
+
+## Day 1
+- Сканави М.И. Элементарная математика
+- http://www.feynmanlectures.caltech.edu/
+- https://git-scm.com/book/ru/v2/
+- duolingo
+- https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+
+## Day 2
+- Сканави М.И. Элементарная математика
+- http://www.feynmanlectures.caltech.edu/
+- https://git-scm.com/book/ru/v2/
+- duolingo
+- https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+
+## Day 3
+- Сканави М.И. Элементарная математика
+- http://www.feynmanlectures.caltech.edu/
+- https://git-scm.com/book/ru/v2/
+- duolingo
+- https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+
+## Day 4
+- Сканави М.И. Элементарная математика
+- http://www.feynmanlectures.caltech.edu/
+- https://git-scm.com/book/ru/v2/
+- duolingo
+- https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+
+## Day 5
+- Сканави М.И. Элементарная математика
+- http://www.feynmanlectures.caltech.edu/
+- https://git-scm.com/book/ru/v2/
+- duolingo
+- https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+
+## Day 6
+- Сканави М.И. Элементарная математика
+- http://www.feynmanlectures.caltech.edu/
+- https://git-scm.com/book/ru/v2/
+- duolingo
+- https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+
+## Day 7
+- Сканави М.И. Элементарная математика
+- http://www.feynmanlectures.caltech.edu/
+- https://git-scm.com/book/ru/v2/
+- duolingo
+- https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+
 ## Day 1
 - Сканави М.И. Элементарная математика
 - http://www.feynmanlectures.caltech.edu/
