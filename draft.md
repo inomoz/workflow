@@ -1905,3 +1905,82 @@ Chrome
    
  
 
+
+
+# Universal code tips
+
+1.  Separate functions, block comments used as "section title" and splitting long functions by 1 line.
+
+2.  Use the rules adopted in the project, for example comments styleguide:
+
+    ```
+    /*
+     * Usualy "root file" description
+     *
+     * Second paragraph. Yes new line after this block is needed.
+     */
+
+    <code>
+    <code>
+
+    /**
+     * This is section. Used usualy for function description or even can replace "root file" decription above.
+     * @property: value
+     *
+     * additional text/config
+     */
+    <code>
+    <code>
+
+    <code> = xx; // line comment
+    <code> = yy; // line comment
+
+    demo_function_with_many_code
+    {
+      <code>
+
+      // Some
+      // long
+      // comment
+      <code>
+
+      // Comment
+      <code>
+    };
+
+    demo_function_with_few_code
+    {
+      // Comment
+      <code>
+      //comment
+      if
+      {
+        <code>
+        // Comment
+        <code>
+      }
+    }
+    ```
+  
+    I like this style, because it's can be used in a lot programming languages (with specific changes).
+
+3.  File naming - I like simple "short" names and usualy use specific standart (adopted in project) for file name or directory name.
+
+    Variants: 
+    
+    * file-name, directory-name;
+    * file_name, directory_name (preferably lowercase).
+   
+    If need add versions to files or directories (let's assume that the VCS is not available), use this postfix 001, 002. Usually 999 options are enough.
+   
+    Dates - you can use popular mask like this - `YYYY-MM-dd_your-title`, if need use nested structure (`YYYY -> YYYY-MM-dd_your-title`, year in subdirectory needed for save year if we copy directory outside of `YYYY`).
+
+4. Few best coding practices for me (this is standart list):
+   - Write / recive clear and complete requirements list;
+   - Adhere to an conventions and guidelines;
+   - Use KISS principle in development;
+   - Write portable code;
+   - Write / use testing code (proactive methodology);
+   - Automate code building (continuous integration, continuous delivery) and deploy.
+   
+   
