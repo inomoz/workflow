@@ -53,7 +53,6 @@
 - http://www.feynmanlectures.caltech.edu/
 - https://git-scm.com/book/ru/v2/
 - duolingo
-- https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
 - You Can Draw in 30 Days
 
 ## Day 7
