@@ -11,6 +11,7 @@
 - https://git-scm.com/book/ru/v2/
 - duolingo
 - https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+- You Can Draw in 30 Days
 
 ## Day 2
 - Сканави М.И. Элементарная математика
@@ -18,6 +19,7 @@
 - https://git-scm.com/book/ru/v2/
 - duolingo
 - https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+- You Can Draw in 30 Days
 
 ## Day 3
 - Сканави М.И. Элементарная математика
@@ -25,6 +27,7 @@
 - https://git-scm.com/book/ru/v2/
 - duolingo
 - https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+- You Can Draw in 30 Days
 
 ## Day 4
 - Сканави М.И. Элементарная математика
@@ -32,6 +35,7 @@
 - https://git-scm.com/book/ru/v2/
 - duolingo
 - https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+- You Can Draw in 30 Days
 
 ## Day 5
 - Сканави М.И. Элементарная математика
@@ -39,6 +43,7 @@
 - https://git-scm.com/book/ru/v2/
 - duolingo
 - https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+- You Can Draw in 30 Days
 
 ## Day 6
 - Сканави М.И. Элементарная математика
@@ -46,6 +51,7 @@
 - https://git-scm.com/book/ru/v2/
 - duolingo
 - https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+- You Can Draw in 30 Days
 
 ## Day 7
 - Сканави М.И. Элементарная математика
@@ -53,6 +59,7 @@
 - https://git-scm.com/book/ru/v2/
 - duolingo
 - https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+- You Can Draw in 30 Days
 
 ## Day 1
 - Сканави М.И. Элементарная математика
@@ -60,6 +67,7 @@
 - https://git-scm.com/book/ru/v2/
 - duolingo
 - https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+- You Can Draw in 30 Days
 
 ## Day 2
 - Сканави М.И. Элементарная математика
@@ -67,6 +75,7 @@
 - https://git-scm.com/book/ru/v2/
 - duolingo
 - https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+- You Can Draw in 30 Days
 
 ## Day 3
 - Сканави М.И. Элементарная математика
@@ -74,6 +83,7 @@
 - https://git-scm.com/book/ru/v2/
 - duolingo
 - https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+- You Can Draw in 30 Days
 
 ## Day 4
 - Сканави М.И. Элементарная математика
@@ -81,6 +91,7 @@
 - https://git-scm.com/book/ru/v2/
 - duolingo
 - https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+- You Can Draw in 30 Days
 
 ## Day 5
 - Сканави М.И. Элементарная математика
@@ -88,6 +99,7 @@
 - https://git-scm.com/book/ru/v2/
 - duolingo
 - https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+- You Can Draw in 30 Days
 
 ## Day 6
 - Сканави М.И. Элементарная математика
@@ -95,6 +107,7 @@
 - https://git-scm.com/book/ru/v2/
 - duolingo
 - https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+- You Can Draw in 30 Days
 
 ## Day 7
 - Сканави М.И. Элементарная математика
@@ -102,6 +115,7 @@
 - https://git-scm.com/book/ru/v2/
 - duolingo
 - https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
+- You Can Draw in 30 Days
 
 # Pet projects base (future smart chat bot)
 - https://github.com/kritzware/twitch-bot
