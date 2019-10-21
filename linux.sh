@@ -1,5 +1,61 @@
 7. Copy some configs to ~/.config/
 ```
+
+fonts: ~/.local/share/fonts
+       sudo fc-cache
+
+http://download.virtualbox.org/virtualbox/
+vboxmanage extpack install ~/Downloads/Oracle_VM_VirtualBox_Extension_Pack-xxxx.vbox-extpack
+
+
+sudo apt install docker.io
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo systemctl status docker
+sudo usermod -aG docker ${USER}
+su ${USER}
+id -nG
+sudo apt install docker-compose
+docker run hello-world 
+
+
+# alternative docker # `gpasswd -a user docker` then relogin
+
+spotify
+curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update && sudo apt-get install spotify-client
+
+
+https://www.teamviewer.com/en/download/linux/
+https://www.upwork.com/ab/downloads/os/linux/
+https://www.skype.com/ru/get-skype/
+https://discordapp.com/download
+https://desktop.telegram.org/
+
+https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=ru
+https://chrome.google.com/webstore/detail/h264ify/aleakchihdccplidncghkekgioiakgal
+https://chrome.google.com/webstore/detail/%D0%BE%D0%B1%D1%85%D0%BE%D0%B4-%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BE%D0%BA-%D1%80%D1%83%D0%BD%D0%B5%D1%82%D0%B0/npgcnondjocldhldegnakemclmfkngch
+
+sudo apt install fzf ripgrep gpick goldendict googler keepassxc mpv ncdu neovim obs-studio  openshot qbittorrent qjackctl ardour redshift-gtk rsync speedtest-cli sshfs tmux translate-shell trash-cli unrar  virtualbox youtube-dl streamlink zathura zathura-cb zathura-djvu zeal  neovim-qt telegram-desktop
+
+sudo apt install --install-suggests gimp inkscape
+
+
+
+redshift -> autostart
+pin apps:
+chromium
+intellj
+konsole
+dolphin
+neovim-qt
+blender
+gimp
+
+
+
+
 ardour5/
 autostart/
 autostart-scripts/
