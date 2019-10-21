@@ -104,56 +104,85 @@ sudo apt update
 sudo apt -y dist-upgrade
 
 ##### install useful apps
-sudo apt install \
-    alacritty \
+sudo apt
+
+fswatch
+BorgBackup
+pandoc
+jq
+caniuse-cmd
+aria2
+peerflix
+GnuPG
+fdupes
+ncdu
+ranger
+CurlFtpFS
+FFmpeg
+Gifsicle
+moviemon
+shellpic
+youtube-dl
+wego
+nmap
+Taskwarrior
+Timewarriror
+
+pdfgrep
+ripgrep
+sshfs
+htop
+autojump *
+fzf
+PathPicker
+tmux
+Neovim
+Git
+OpenVPN
+googler
+crontab.guru
+progress
+wget
+gifgen
+parallel
+thefuck
+tldr
+hub
+ngnix
+
+asdf
+mps-youtube
+ripgrep
+rtv
+
+install \
     anbox \
-    anki \
-    aptitude \
     ardour \
     aria2 \
-    atop \
-    autossh \
     bash-completion \
-    bats \
-    bcal \
     blender \
     borgbackup \
     build-essential \
     calibre \
-    cantata \
-    cargo \
-    chromium-browser \
-    chromium-codecs-ffmpeg-extra \
-    com.github.babluboy.bookworm \
     cutechess \
     davfs2 \
-    digikam \
+    darktable \
     docker-ce \
     dos2unix \
     dropbox \
-    emacs-snapshot \
     exfat-utils \
     ffmpeg \
     figma-linux \
     firefox \
-    freecad \
-    fuse \
-    gcc \
     gimp \
     git \
-    git-core \
-    git-extras \
-    golang-go \
     goldendict \
     googler \
-    gotop \
     gparted \
     gpg-agent \
-    handbrake \
     howdoi \
     hstr \
     htop \
-    httpie \
     hunspell-en-us \
     imagemagick \
     inkscape-trunk \
