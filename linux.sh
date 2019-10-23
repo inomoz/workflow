@@ -52,7 +52,10 @@ dolphin
 neovim-qt
 blender
 gimp
-grip
+
+pandoc
+texlive-fonts-recommended texlive-latex-recommended
+
 
 
 
