@@ -162,7 +162,7 @@ sudo apt -y dist-upgrade
 ##### install useful apps
 sudo apt
 
-
+stow
 fswatch
 BorgBackup
 pandoc
