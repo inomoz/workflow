@@ -176,6 +176,7 @@ ncdu
 ranger
 CurlFtpFS
 FFmpeg
+reptyr
 Gifsicle
 moviemon 
 shellpic
