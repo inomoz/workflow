@@ -52,7 +52,7 @@ dolphin
 neovim-qt
 blender
 gimp
-
+grip
 
 
 
