@@ -162,6 +162,55 @@ sudo apt -y dist-upgrade
 ##### install useful apps
 sudo apt
 
+
+fswatch
+BorgBackup
+pandoc
+jq
+caniuse-cmd 
+aria2
+peerflix
+GnuPG 
+fdupes
+ncdu
+ranger
+CurlFtpFS
+FFmpeg
+Gifsicle
+moviemon 
+shellpic
+youtube-dl 
+wego
+nmap 
+Taskwarrior 
+Timewarriror
+pdfgrep
+ripgrep
+sshfs
+htop 
+autojump *
+fzf 
+PathPicker 
+tmux
+Neovim 
+Git
+OpenVPN
+googler 
+crontab.guru
+progress 
+wget
+gifgen
+parallel
+thefuck
+tldr
+hub
+ngnix
+asdf
+mps-youtube
+ripgrep
+rtv
+
+
 fswatch
 BorgBackup
 pandoc
