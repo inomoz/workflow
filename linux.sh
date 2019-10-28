@@ -506,3 +506,8 @@ https://plugins.jetbrains.com/plugin/10080-rainbow-brackets
 
 # OS setup
 ~/.config/kxkbrc
+
+
+
+# Disable meta key
+kwriteconfig5 --file kwinrc --group ModifierOnlyShortcuts --key Meta ""
