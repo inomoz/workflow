@@ -27,6 +27,7 @@
 - [ ] http://exploringjs.com/index.html - here some free books!
 - [ ] https://github.com/h5bp/Front-end-Developer-Interview-Questions
 - [ ] https://github.com/alex/what-happens-when
+- [ ] https://github.com/rwaldron/idiomatic.js
 ---
 ## Level 1
 - [ ] OSSU - [OSSU](OSSU.md)
