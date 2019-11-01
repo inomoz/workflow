@@ -26,6 +26,7 @@
 - [ ] https://learn.javascript.ru/pre-coding
 - [ ] http://exploringjs.com/index.html - here some free books!
 - [ ] https://github.com/h5bp/Front-end-Developer-Interview-Questions
+- [ ] https://github.com/alex/what-happens-when
 ---
 ## Level 1
 - [ ] OSSU - [OSSU](OSSU.md)
