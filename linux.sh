@@ -1852,3 +1852,68 @@ zenity
 zenity-common
 zip
 zlib1g-dev
+
+fzf
+googler
+
+mkdir -p ~/bin
+curl -o ~/bin/tldr https://raw.githubusercontent.com/raylee/tldr/master/tldr
+chmod +x ~/bin/tldr
+
+marker - bookmark commands
+hstr
+parallel
+xsv
+
+thefuck
+sshfs
+ripgrep
+
+sshrc #no
+
+https://github.com/Xfennec/progress
+
+ncurses-bin
+
+https://github.com/github/hub
+
+https://github.com/mrowa44/emojify
+
+https://github.com/magicmonty/bash-git-prompt
+
+ npm install --global base16-builder
+
+nvm
+
+lnav
+
+rtv
+
+pip install git+https://github.com/donnemartin/haxor-news.git
+
+
+sejda # pdf tools
+
+jq
+
+https://github.com/lukechilds/gifgen
+
+https://github.com/mrzool/bash-sensible
+
+hstr
+
+https://github.com/alexanderepstein/Bash-Snippets
+wmctrl
+
+
+
+Key Promoter X
+ideavim
+vim-multiple-cursors
+tab-shifter
+AceJump
+Run Configuration as Action
+Nyan Progress Bar
+Rainbow Brackets
+String Manipulation fr
+termdown
